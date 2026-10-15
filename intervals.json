@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T23:54:26.994326",
+  "generated_at": "2026-10-15T00:39:12.902118",
   "schema_version": 1,
   "version": "3.139",
   "script_hash": "643c6e9c8b36",
@@ -746,34 +746,6 @@
         }
       ],
       "zone_basis": "power"
-    },
-    {
-      "activity_id": "i191918851",
-      "date": "2026-09-30",
-      "start_datetime": "2026-09-30T14:46:57",
-      "type": "Ride",
-      "name": "Ustro\u0144 Kol. szosowe",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 8333,
-          "moving_secs": 7941,
-          "start_secs": 0,
-          "end_secs": 8333,
-          "avg_power": 177,
-          "max_power": 504,
-          "avg_hr": 103,
-          "max_hr": 126,
-          "min_hr": 61,
-          "avg_cadence": 74.153786,
-          "zone": 1,
-          "w_bal_start": 26000,
-          "w_bal_end": 25992,
-          "training_load": 74.04921
-        }
-      ],
-      "zone_basis": "power"
     }
   ],
   "fetch_state": {
@@ -914,24 +886,6 @@
         "status": "ok",
         "reason": "ok",
         "source_icu_sync_date": "2026-10-01T14:45:00.060+00:00"
-      },
-      "streams": {
-        "attempts": 1,
-        "first_seen": "2026-10-14T14:16:20.079843",
-        "last_attempt": "2026-10-14T14:16:20.079843",
-        "status": "tombstone",
-        "reason": "retry_expired"
-      }
-    },
-    "i191918851": {
-      "date": "2026-09-30",
-      "intervals": {
-        "attempts": 1,
-        "first_seen": "2026-10-14T14:16:20.079843",
-        "last_attempt": "2026-10-14T14:16:20.079843",
-        "status": "ok",
-        "reason": "ok",
-        "source_icu_sync_date": "2026-09-30T15:16:30.237+00:00"
       },
       "streams": {
         "attempts": 1,
