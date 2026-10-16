@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T23:54:41.113454",
+  "generated_at": "2026-10-16T00:39:13.410868",
   "schema_version": 1,
   "version": "3.139",
   "script_hash": "643c6e9c8b36",
@@ -718,34 +718,6 @@
         }
       ],
       "zone_basis": "power"
-    },
-    {
-      "activity_id": "i192279916",
-      "date": "2026-10-01",
-      "start_datetime": "2026-10-01T13:57:39",
-      "type": "MountainBikeRide",
-      "name": "Ustro\u0144 MTB Edge",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 7263,
-          "moving_secs": 6061,
-          "start_secs": 0,
-          "end_secs": 7263,
-          "avg_power": 151,
-          "max_power": 596,
-          "avg_hr": 105,
-          "max_hr": 148,
-          "min_hr": 65,
-          "avg_cadence": 62.367207,
-          "zone": 1,
-          "w_bal_start": 26000,
-          "w_bal_end": 25932,
-          "training_load": 47.941746
-        }
-      ],
-      "zone_basis": "power"
     }
   ],
   "fetch_state": {
@@ -760,12 +732,12 @@
         "source_icu_sync_date": "2026-10-14T09:21:25.216+00:00"
       },
       "streams": {
-        "attempts": 16,
+        "attempts": 17,
         "first_seen": "2026-10-14T14:16:20.079843",
-        "last_attempt": "2026-10-15T18:35:34.157174",
+        "last_attempt": "2026-10-16T00:39:13.410868",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-10-16T00:35:34.157174"
+        "next_retry_at": "2026-10-16T06:39:13.410868"
       }
     },
     "i196378175": {
@@ -867,24 +839,6 @@
         "status": "ok",
         "reason": "ok",
         "source_icu_sync_date": "2026-10-03T20:47:43.024+00:00"
-      },
-      "streams": {
-        "attempts": 1,
-        "first_seen": "2026-10-14T14:16:20.079843",
-        "last_attempt": "2026-10-14T14:16:20.079843",
-        "status": "tombstone",
-        "reason": "retry_expired"
-      }
-    },
-    "i192279916": {
-      "date": "2026-10-01",
-      "intervals": {
-        "attempts": 1,
-        "first_seen": "2026-10-14T14:16:20.079843",
-        "last_attempt": "2026-10-14T14:16:20.079843",
-        "status": "ok",
-        "reason": "ok",
-        "source_icu_sync_date": "2026-10-01T14:45:00.060+00:00"
       },
       "streams": {
         "attempts": 1,
