@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T13:58:42.552737",
+  "generated_at": "2026-10-18T14:27:03.411783",
   "schema_version": 1,
   "version": "3.139",
   "script_hash": "643c6e9c8b36",
@@ -772,8 +772,7 @@
       "type": "Ride",
       "name": "Ustro\u0144 Kol. szosowe",
       "interval_summary": [
-        "1x 10m38s 311w",
-        "1x 4m39s 325w"
+        "1x 15m40s 314w"
       ],
       "intervals": [
         {
@@ -795,56 +794,21 @@
         },
         {
           "type": "WORK",
-          "label": "638s@311w76rpm",
-          "duration_secs": 638,
-          "moving_secs": 638,
+          "label": "940s@314w74rpm",
+          "duration_secs": 940,
+          "moving_secs": 940,
           "start_secs": 6103,
-          "end_secs": 6741,
-          "avg_power": 311,
-          "max_power": 361,
-          "avg_hr": 152,
-          "max_hr": 165,
+          "end_secs": 7043,
+          "avg_power": 314,
+          "max_power": 393,
+          "avg_hr": 156,
+          "max_hr": 175,
           "min_hr": 113,
-          "avg_cadence": 75.54702,
+          "avg_cadence": 74.0766,
           "zone": 4,
           "w_bal_start": 25997,
-          "w_bal_end": 25721,
-          "training_load": 15.093124
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 23,
-          "moving_secs": 23,
-          "start_secs": 6741,
-          "end_secs": 6764,
-          "avg_power": 268,
-          "max_power": 344,
-          "avg_hr": 162,
-          "max_hr": 164,
-          "min_hr": 162,
-          "avg_cadence": 79.0,
-          "zone": 3,
-          "w_bal_start": 25721,
-          "w_bal_end": 25730,
-          "training_load": 0.5029304
-        },
-        {
-          "type": "WORK",
-          "label": "279s@325w70rpm",
-          "duration_secs": 279,
-          "moving_secs": 279,
-          "start_secs": 6764,
-          "end_secs": 7043,
-          "avg_power": 325,
-          "max_power": 393,
-          "avg_hr": 165,
-          "max_hr": 175,
-          "min_hr": 162,
-          "avg_cadence": 70.30824,
-          "zone": 4,
-          "w_bal_start": 25722,
           "w_bal_end": 24768,
-          "training_load": 7.119458
+          "training_load": 22.813223
         },
         {
           "type": "RECOVERY",
@@ -998,12 +962,12 @@
     "i198602794": {
       "date": "2026-10-18",
       "intervals": {
-        "attempts": 1,
+        "attempts": 2,
         "first_seen": "2026-10-18T10:56:47.358238",
-        "last_attempt": "2026-10-18T10:56:47.358238",
+        "last_attempt": "2026-10-18T14:27:03.411783",
         "status": "ok",
         "reason": "ok",
-        "source_icu_sync_date": "2026-10-18T10:37:48.539+00:00"
+        "source_icu_sync_date": "2026-10-18T14:17:15.988+00:00"
       },
       "streams": {
         "attempts": 7,
