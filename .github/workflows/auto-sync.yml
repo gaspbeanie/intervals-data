@@ -101,14 +101,22 @@ jobs:
           # Single-writer mode: generate files locally and let this workflow commit them.
           # Avoid sync.py GitHub API publishing here, because the publish step below
           # commits the checkout copies of the generated files.
-          python sync.py \
-            --athlete-id "$ATHLETE_ID" \
-            --intervals-key "$INTERVALS_KEY" \
-            --days 7 \
-            --output latest.json || {
-              echo "❌ Sync script failed with exit code $?"
-              exit 1
-            }
+          for attempt in 1 2 3; do
+            python sync.py \
+              --athlete-id "$ATHLETE_ID" \
+              --intervals-key "$INTERVALS_KEY" \
+              --days 7 \
+              --output latest.json && break || {
+                EXIT_CODE=$?
+                if [ "$attempt" -lt 3 ]; then
+                  echo "⚠️ Intervals.icu API temporary error (exit code $EXIT_CODE). Retrying in 30s (attempt $attempt/3)..."
+                  sleep 30
+                else
+                  echo "❌ Sync script failed after 3 attempts with exit code $EXIT_CODE"
+                  exit 1
+                fi
+              }
+          done
 
       - name: Verify generated data
         run: |
