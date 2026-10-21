@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T23:56:22.124537",
+  "generated_at": "2026-10-21T00:40:04.408568",
   "schema_version": 1,
   "version": "3.139",
   "script_hash": "643c6e9c8b36",
@@ -554,71 +554,6 @@
       "zone_basis": "power"
     },
     {
-      "activity_id": "i194296559",
-      "date": "2026-10-06",
-      "start_datetime": "2026-10-06T13:37:58",
-      "type": "Ride",
-      "name": "Ustro\u0144 ROAD Edge",
-      "interval_summary": [
-        "1x 5m21s 258w"
-      ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 6150,
-          "moving_secs": 5190,
-          "start_secs": 0,
-          "end_secs": 6150,
-          "avg_power": 179,
-          "max_power": 680,
-          "avg_hr": 114,
-          "max_hr": 141,
-          "min_hr": 67,
-          "avg_cadence": 70.22488,
-          "zone": 1,
-          "w_bal_start": 26000,
-          "w_bal_end": 25997,
-          "training_load": 52.550888
-        },
-        {
-          "type": "WORK",
-          "label": "321s@258w75rpm",
-          "duration_secs": 321,
-          "moving_secs": 321,
-          "start_secs": 6150,
-          "end_secs": 6471,
-          "avg_power": 258,
-          "max_power": 309,
-          "avg_hr": 135,
-          "max_hr": 141,
-          "min_hr": 127,
-          "avg_cadence": 75.34891,
-          "zone": 3,
-          "w_bal_start": 25997,
-          "w_bal_end": 25998,
-          "training_load": 5.185719
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 3727,
-          "moving_secs": 2901,
-          "start_secs": 6471,
-          "end_secs": 10198,
-          "avg_power": 153,
-          "max_power": 516,
-          "avg_hr": 109,
-          "max_hr": 146,
-          "min_hr": 71,
-          "avg_cadence": 66.55838,
-          "zone": 1,
-          "w_bal_start": 25998,
-          "w_bal_end": 25999,
-          "training_load": 24.81758
-        }
-      ],
-      "zone_basis": "power"
-    },
-    {
       "activity_id": "i198241659",
       "date": "2026-10-17",
       "start_datetime": "2026-10-17T10:00:20",
@@ -1044,24 +979,6 @@
         "reason": "retry_expired"
       }
     },
-    "i194296559": {
-      "date": "2026-10-06",
-      "intervals": {
-        "attempts": 1,
-        "first_seen": "2026-10-14T14:16:20.079843",
-        "last_attempt": "2026-10-14T14:16:20.079843",
-        "status": "ok",
-        "reason": "ok",
-        "source_icu_sync_date": "2026-10-06T14:32:31.439+00:00"
-      },
-      "streams": {
-        "attempts": 1,
-        "first_seen": "2026-10-14T14:16:20.079843",
-        "last_attempt": "2026-10-14T14:16:20.079843",
-        "status": "tombstone",
-        "reason": "retry_expired"
-      }
-    },
     "i198241659": {
       "date": "2026-10-17",
       "intervals": {
@@ -1110,12 +1027,12 @@
         "source_icu_sync_date": "2026-10-20T09:14:40.645+00:00"
       },
       "streams": {
-        "attempts": 13,
+        "attempts": 14,
         "first_seen": "2026-10-20T10:05:02.480230",
-        "last_attempt": "2026-10-20T18:36:38.360226",
+        "last_attempt": "2026-10-21T00:40:04.408568",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-10-21T00:36:38.360226"
+        "next_retry_at": "2026-10-21T06:40:04.408568"
       }
     }
   }
