@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T10:59:04.667245",
+  "generated_at": "2026-10-24T11:27:24.802944",
   "schema_version": 1,
   "version": "3.139",
   "script_hash": "643c6e9c8b36",
@@ -749,14 +749,15 @@
       "type": "TrailRun",
       "name": "Ustro\u0144 Bieg prze\u0142aj.",
       "interval_summary": [
-        "4x 5m50s 126bpm",
+        "2x 5m52s 130bpm",
         "3x 6m54s 144bpm",
+        "1x 11m36s 121bpm",
         "1x 4m40s 134bpm"
       ],
       "intervals": [
         {
           "type": "WORK",
-          "label": "350s@126bpm80rpm",
+          "label": "352s@130bpm79rpm",
           "duration_secs": 339,
           "moving_secs": 339,
           "start_secs": 0,
@@ -820,33 +821,20 @@
         },
         {
           "type": "WORK",
-          "label": "350s@126bpm80rpm",
-          "duration_secs": 358,
-          "moving_secs": 358,
+          "label": "696s@121bpm80rpm",
+          "duration_secs": 696,
+          "moving_secs": 696,
           "start_secs": 1582,
-          "end_secs": 1940,
-          "avg_hr": 120,
+          "end_secs": 2278,
+          "avg_hr": 121,
           "max_hr": 132,
           "min_hr": 113,
-          "avg_cadence": 80.072624,
+          "avg_cadence": 80.23132,
           "zone": 1
         },
         {
           "type": "WORK",
-          "label": "350s@126bpm80rpm",
-          "duration_secs": 338,
-          "moving_secs": 338,
-          "start_secs": 1940,
-          "end_secs": 2278,
-          "avg_hr": 122,
-          "max_hr": 128,
-          "min_hr": 113,
-          "avg_cadence": 80.39941,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "350s@126bpm80rpm",
+          "label": "352s@130bpm79rpm",
           "duration_secs": 364,
           "moving_secs": 364,
           "start_secs": 2278,
@@ -1022,20 +1010,20 @@
     "i200981487": {
       "date": "2026-10-24",
       "intervals": {
-        "attempts": 1,
+        "attempts": 2,
         "first_seen": "2026-10-24T08:30:38.525744",
-        "last_attempt": "2026-10-24T08:30:38.525744",
+        "last_attempt": "2026-10-24T11:27:24.802944",
         "status": "ok",
         "reason": "ok",
-        "source_icu_sync_date": "2026-10-24T08:21:05.963+00:00"
+        "source_icu_sync_date": "2026-10-24T11:24:13.476+00:00"
       },
       "streams": {
-        "attempts": 6,
+        "attempts": 7,
         "first_seen": "2026-10-24T08:30:38.525744",
-        "last_attempt": "2026-10-24T10:59:04.667245",
+        "last_attempt": "2026-10-24T11:27:24.802944",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-10-24T11:04:04.667245"
+        "next_retry_at": "2026-10-24T11:57:24.802944"
       }
     }
   }
