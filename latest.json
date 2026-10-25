@@ -71,7 +71,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-25T14:59:08.397748",
+    "last_updated": "2026-10-25T15:28:11.204949",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.139"
@@ -665,8 +665,7 @@
       "phase": null,
       "confidence": "low",
       "reason_codes": [
-        "BUILD_BASE_AMBIGUOUS",
-        "NO_PLANNED_WORKOUTS"
+        "BUILD_BASE_AMBIGUOUS"
       ],
       "basis": {
         "stream_1": {
@@ -681,9 +680,9 @@
           "current_week_hard_days_completed": 1,
           "current_week_hard_days_total": 1,
           "race_proximity": null,
-          "next_week_load": null,
+          "next_week_load": 0.73,
           "plan_coverage_current_week": 0.0,
-          "plan_coverage_next_week": 0.0
+          "plan_coverage_next_week": 1.5
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -695,8 +694,7 @@
     },
     "phase_detected": null,
     "phase_triggers": [
-      "BUILD_BASE_AMBIGUOUS",
-      "NO_PLANNED_WORKOUTS"
+      "BUILD_BASE_AMBIGUOUS"
     ],
     "seasonal_context": "Late Season / Transition",
     "benchmark_indoor": {
@@ -719,7 +717,7 @@
     "p_max": 1000,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 64.0,
-    "calculation_timestamp": "2026-10-25T14:59:08.396483",
+    "calculation_timestamp": "2026-10-25T15:28:11.203965",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -5013,69 +5011,84 @@
       "description": ""
     },
     {
-      "id": 148065577,
+      "id": 148066786,
       "date": "2026-10-27",
-      "name": "test 5 min",
-      "type": "NOTE",
-      "sport_type": null,
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
+      "name": "Test 5 min",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 63,
+      "duration_hours": 1.32,
+      "duration_formatted": "1h19m30s",
+      "workout_summary": "20m [target not shown] | 3\u00d7(30s [target not shown] + 1m [target not shown]) | [repeat not summarized] | [repeat not summarized] | [repeat not summarized] | [repeat not summarized] | 5m [target not shown]",
       "has_terrain": false,
-      "description": ""
+      "description": "Trena\u017cer, Assioma, Vital Pro ON. 5 min: start 360\u2013370 W, ostatnia minuta all-out (cel w pliku to tylko orientacja \u2013 jed\u017a na maksa).\n\nWarmup\n- 20m 60% intensity=warmup\n\nMain Set 3x\n- 30s 100-130% intensity=interval\n- 1m 55% intensity=recovery\n\nMain Set 1x\n- 5m 55% intensity=recovery\n\nMain Set 1x\n- 5m 111-114% intensity=interval\n\nMain Set 1x\n- 10m 50% intensity=recovery\n\nMain Set 1x\n- 30m 58-65% intensity=interval\n\nCooldown\n- 5m 50% intensity=cooldown"
     },
     {
-      "id": 148065692,
+      "id": 148066788,
       "date": "2026-10-28",
       "name": "Z2",
-      "type": "NOTE",
-      "sport_type": null,
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 45,
+      "duration_hours": 1.17,
+      "duration_formatted": "1h10m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": ""
+      "description": "Spokojne Z2, 190\u2013215 W, kadencja swobodna.\n\nMain Set 1x\n- 70m 58-66% intensity=interval"
     },
     {
-      "id": 148065762,
+      "id": 148066792,
       "date": "2026-10-29",
-      "name": "test 20 min",
-      "type": "NOTE",
-      "sport_type": null,
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
+      "name": "Test 20 min",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 71,
+      "duration_hours": 1.07,
+      "duration_formatted": "1h4m30s",
+      "workout_summary": "20m [target not shown] | 3\u00d7(30s [target not shown] + 1m [target not shown]) | [repeat not summarized] | [repeat not summarized] | [repeat not summarized] | 15m [target not shown]",
       "has_terrain": false,
-      "description": ""
+      "description": "Trena\u017cer, ten sam setup i rozgrzewka co we wtorek. Pierwsze 10 min 325\u2013330 W, potem w g\u00f3r\u0119 wg samopoczucia.\n\nWarmup\n- 20m 60% intensity=warmup\n\nMain Set 3x\n- 30s 100-130% intensity=interval\n- 1m 55% intensity=recovery\n\nMain Set 1x\n- 5m 55% intensity=recovery\n\nMain Set 1x\n- 10m 100-102% intensity=interval\n\nMain Set 1x\n- 10m 102-106% intensity=interval\n\nCooldown\n- 15m 50% intensity=cooldown"
     },
     {
-      "id": 148065832,
+      "id": 148066796,
       "date": "2026-10-30",
-      "name": "bieg + si\u0142ka",
-      "type": "NOTE",
-      "sport_type": null,
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
+      "name": "Bieg spokojny",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 21,
+      "duration_hours": 0.53,
+      "duration_formatted": "32m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": ""
+      "start_time": "09:00",
+      "description": "30\u201335 min spokojnie, HR ~130\u2013135.\n\nMain Set 1x\n- 32m Z1 HR intensity=warmup"
     },
     {
-      "id": 148065902,
-      "date": "2026-10-31",
-      "name": "Z2",
-      "type": "NOTE",
-      "sport_type": null,
+      "id": 148066799,
+      "date": "2026-10-30",
+      "name": "Si\u0142ownia",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
       "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
-      "description": ""
+      "start_time": "10:00",
+      "description": "Ci\u0119\u017cko, ma\u0142o powt\u00f3rze\u0144. Pierwsza sesja po przerwie: ~RPE 7, bez dociskania do upadku."
+    },
+    {
+      "id": 148066804,
+      "date": "2026-10-31",
+      "name": "D\u0142ugie Z2",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 110,
+      "duration_hours": 2.75,
+      "duration_formatted": "2h45m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "Szosa, 2:30\u20133:00 h, 190\u2013225 W, bez akcent\u00f3w.\n\nMain Set 1x\n- 165m 58-69% intensity=interval"
     },
     {
       "id": 148066010,
@@ -5092,12 +5105,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 0,
-    "success": 0,
-    "patternA": 0,
+    "attempted": 5,
+    "success": 2,
+    "patternA": 2,
     "patternB": 0,
-    "bail_no_workout_doc": 0,
-    "bail_no_match": 0
+    "bail_no_workout_doc": 1,
+    "bail_no_match": 3
   },
   "weekly_summary": {
     "total_training_hours": 5.18,
