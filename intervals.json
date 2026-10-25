@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T07:18:01.275651",
+  "generated_at": "2026-10-25T08:03:05.050360",
   "schema_version": 1,
   "version": "3.139",
   "script_hash": "643c6e9c8b36",
@@ -832,6 +832,34 @@
         }
       ],
       "zone_basis": "hr"
+    },
+    {
+      "activity_id": "i201326898",
+      "date": "2026-10-25",
+      "start_datetime": "2026-10-25T08:47:31",
+      "type": "VirtualRide",
+      "name": "Rower stacj.",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 320,
+          "moving_secs": 320,
+          "start_secs": 0,
+          "end_secs": 320,
+          "avg_power": 125,
+          "max_power": 272,
+          "avg_hr": 96,
+          "max_hr": 114,
+          "min_hr": 71,
+          "avg_cadence": 77.30937,
+          "zone": 1,
+          "w_bal_start": 26000,
+          "w_bal_end": 26000,
+          "training_load": 1.5782084
+        }
+      ],
+      "zone_basis": "power"
     }
   ],
   "fetch_state": {
@@ -978,6 +1006,25 @@
         "status": "pending",
         "reason": "no_data",
         "next_retry_at": "2026-10-25T11:05:21.643562"
+      }
+    },
+    "i201326898": {
+      "date": "2026-10-25",
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-10-25T08:03:05.050360",
+        "last_attempt": "2026-10-25T08:03:05.050360",
+        "status": "ok",
+        "reason": "ok",
+        "source_icu_sync_date": "2026-10-25T07:53:06.589+00:00"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-10-25T08:03:05.050360",
+        "last_attempt": "2026-10-25T08:03:05.050360",
+        "status": "pending",
+        "reason": "no_data",
+        "next_retry_at": "2026-10-25T08:08:05.050360"
       }
     }
   }
