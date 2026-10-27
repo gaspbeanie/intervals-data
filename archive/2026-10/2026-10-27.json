@@ -71,7 +71,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-27T11:35:31.632238",
+    "last_updated": "2026-10-27T12:12:14.769783",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.139"
@@ -674,10 +674,10 @@
           "hard_sessions_planned": 2,
           "current_week_hard_days_completed": 0,
           "current_week_hard_days_total": 2,
-          "race_proximity": null,
+          "race_proximity": 11,
           "next_week_load": null,
           "plan_coverage_current_week": 1.5,
-          "plan_coverage_next_week": 0.0
+          "plan_coverage_next_week": 0.25
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -710,7 +710,7 @@
     "p_max": 998,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-27T11:35:31.631020",
+    "calculation_timestamp": "2026-10-27T12:12:14.768375",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -4622,6 +4622,279 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": ""
+    },
+    {
+      "id": 148868599,
+      "date": "2026-11-02",
+      "name": "hidit",
+      "type": "NOTE",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": ""
+    },
+    {
+      "id": 148868643,
+      "date": "2026-11-03",
+      "name": "bieg+si\u0142ka",
+      "type": "NOTE",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": ""
+    },
+    {
+      "id": 148868667,
+      "date": "2026-11-04",
+      "name": "rest",
+      "type": "NOTE",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
+      "id": 148868733,
+      "date": "2026-11-05",
+      "name": "hidit",
+      "type": "NOTE",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
+      "id": 148868969,
+      "date": "2026-11-06",
+      "name": "z2",
+      "type": "NOTE",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
+      "id": 148869512,
+      "date": "2026-11-07",
+      "name": "race zwift",
+      "type": "RACE_C",
+      "sport_type": "Ride",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
+      "id": 148869057,
+      "date": "2026-11-08",
+      "name": "bieg+si\u0142ka",
+      "type": "NOTE",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
+      "id": 148870219,
+      "date": "2026-11-09",
+      "name": "rest",
+      "type": "NOTE",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
+      "id": 148870198,
+      "date": "2026-11-10",
+      "name": "z2",
+      "type": "NOTE",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
+      "id": 148870060,
+      "date": "2026-11-11",
+      "name": "race zwift",
+      "type": "RACE_C",
+      "sport_type": "Ride",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
+      "id": 148870071,
+      "date": "2026-11-12",
+      "name": "race zwift",
+      "type": "RACE_C",
+      "sport_type": "Ride",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
+      "id": 148870077,
+      "date": "2026-11-13",
+      "name": "race zwift",
+      "type": "RACE_C",
+      "sport_type": "Ride",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
+      "id": 148870085,
+      "date": "2026-11-14",
+      "name": "race zwift",
+      "type": "RACE_C",
+      "sport_type": "Ride",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
+      "id": 148870131,
+      "date": "2026-11-15",
+      "name": "race zwift",
+      "type": "RACE_C",
+      "sport_type": "Ride",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
+      "id": 148870870,
+      "date": "2026-11-16",
+      "name": "rest",
+      "type": "NOTE",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
+      "id": 148871099,
+      "date": "2026-11-17",
+      "name": "hidit",
+      "type": "NOTE",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
+      "id": 148871119,
+      "date": "2026-11-18",
+      "name": "bieg+si\u0142ka+heat",
+      "type": "NOTE",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
+      "id": 148870340,
+      "date": "2026-11-21",
+      "name": "race zwift",
+      "type": "RACE_C",
+      "sport_type": "Ride",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
+      "id": 148870993,
+      "date": "2026-11-22",
+      "name": "bieg+si\u0142ka+heat",
+      "type": "NOTE",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
+      "id": 148870371,
+      "date": "2026-11-28",
+      "name": "race zwift",
+      "type": "RACE_C",
+      "sport_type": "Ride",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
+      "id": 148870553,
+      "date": "2026-12-05",
+      "name": "race zwift",
+      "type": "RACE_C",
+      "sport_type": "Ride",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
     }
   ],
   "workout_summary_stats": {
@@ -4641,8 +4914,164 @@
     "avg_resting_hr": 38.4
   },
   "race_calendar": {
-    "next_race": null,
-    "all_races": [],
+    "next_race": {
+      "name": "race zwift",
+      "date": "2026-11-07",
+      "category": "RACE_C",
+      "type": "Ride",
+      "days_until": 11,
+      "moving_time_seconds": null,
+      "distance_meters": null,
+      "display": {
+        "distance": null
+      },
+      "has_terrain": false
+    },
+    "all_races": [
+      {
+        "name": "race zwift",
+        "date": "2026-11-07",
+        "category": "RACE_C",
+        "type": "Ride",
+        "days_until": 11,
+        "moving_time_seconds": null,
+        "distance_meters": null,
+        "display": {
+          "distance": null
+        },
+        "has_terrain": false
+      },
+      {
+        "name": "race zwift",
+        "date": "2026-11-11",
+        "category": "RACE_C",
+        "type": "Ride",
+        "days_until": 15,
+        "moving_time_seconds": null,
+        "distance_meters": null,
+        "display": {
+          "distance": null
+        },
+        "has_terrain": false
+      },
+      {
+        "name": "race zwift",
+        "date": "2026-11-12",
+        "category": "RACE_C",
+        "type": "Ride",
+        "days_until": 16,
+        "moving_time_seconds": null,
+        "distance_meters": null,
+        "display": {
+          "distance": null
+        },
+        "has_terrain": false
+      },
+      {
+        "name": "race zwift",
+        "date": "2026-11-13",
+        "category": "RACE_C",
+        "type": "Ride",
+        "days_until": 17,
+        "moving_time_seconds": null,
+        "distance_meters": null,
+        "display": {
+          "distance": null
+        },
+        "has_terrain": false
+      },
+      {
+        "name": "race zwift",
+        "date": "2026-11-14",
+        "category": "RACE_C",
+        "type": "Ride",
+        "days_until": 18,
+        "moving_time_seconds": null,
+        "distance_meters": null,
+        "display": {
+          "distance": null
+        },
+        "has_terrain": false
+      },
+      {
+        "name": "race zwift",
+        "date": "2026-11-15",
+        "category": "RACE_C",
+        "type": "Ride",
+        "days_until": 19,
+        "moving_time_seconds": null,
+        "distance_meters": null,
+        "display": {
+          "distance": null
+        },
+        "has_terrain": false
+      },
+      {
+        "name": "race zwift",
+        "date": "2026-11-21",
+        "category": "RACE_C",
+        "type": "Ride",
+        "days_until": 25,
+        "moving_time_seconds": null,
+        "distance_meters": null,
+        "display": {
+          "distance": null
+        },
+        "has_terrain": false
+      },
+      {
+        "name": "race zwift",
+        "date": "2026-11-28",
+        "category": "RACE_C",
+        "type": "Ride",
+        "days_until": 32,
+        "moving_time_seconds": null,
+        "distance_meters": null,
+        "display": {
+          "distance": null
+        },
+        "has_terrain": false
+      },
+      {
+        "name": "race zwift",
+        "date": "2026-12-05",
+        "category": "RACE_C",
+        "type": "Ride",
+        "days_until": 39,
+        "moving_time_seconds": null,
+        "distance_meters": null,
+        "display": {
+          "distance": null
+        },
+        "has_terrain": false
+      },
+      {
+        "name": "race zwift",
+        "date": "2026-12-12",
+        "category": "RACE_C",
+        "type": "Ride",
+        "days_until": 46,
+        "moving_time_seconds": null,
+        "distance_meters": null,
+        "display": {
+          "distance": null
+        },
+        "has_terrain": false
+      },
+      {
+        "name": "GMP zwift",
+        "date": "2026-12-20",
+        "category": "RACE_B",
+        "type": "Ride",
+        "days_until": 54,
+        "moving_time_seconds": null,
+        "distance_meters": null,
+        "display": {
+          "distance": null
+        },
+        "has_terrain": false
+      }
+    ],
     "taper_alert": {
       "active": false
     },
