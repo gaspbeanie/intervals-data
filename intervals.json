@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T23:29:37.809634",
+  "generated_at": "2026-10-27T00:00:10.887207",
   "schema_version": 1,
   "version": "3.139",
   "script_hash": "643c6e9c8b36",
@@ -24,85 +24,6 @@
           "max_hr": 165,
           "min_hr": 60,
           "avg_cadence": 73.828,
-          "zone": 1
-        }
-      ],
-      "zone_basis": "hr"
-    },
-    {
-      "activity_id": "i196378175",
-      "date": "2026-10-12",
-      "start_datetime": "2026-10-12T10:15:11",
-      "type": "TrailRun",
-      "name": "Ustro\u0144 Bieg prze\u0142aj.",
-      "interval_summary": [
-        "4x 5m52s 124bpm",
-        "1x 34s 118bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "352s@124bpm78rpm",
-          "duration_secs": 364,
-          "moving_secs": 364,
-          "start_secs": 0,
-          "end_secs": 364,
-          "avg_hr": 115,
-          "max_hr": 130,
-          "min_hr": 68,
-          "avg_cadence": 77.3022,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "352s@124bpm78rpm",
-          "duration_secs": 339,
-          "moving_secs": 339,
-          "start_secs": 364,
-          "end_secs": 703,
-          "avg_hr": 119,
-          "max_hr": 128,
-          "min_hr": 112,
-          "avg_cadence": 79.13864,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "352s@124bpm78rpm",
-          "duration_secs": 369,
-          "moving_secs": 369,
-          "start_secs": 703,
-          "end_secs": 1072,
-          "avg_hr": 125,
-          "max_hr": 133,
-          "min_hr": 116,
-          "avg_cadence": 77.74797,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "352s@124bpm78rpm",
-          "duration_secs": 334,
-          "moving_secs": 334,
-          "start_secs": 1072,
-          "end_secs": 1406,
-          "avg_hr": 138,
-          "max_hr": 161,
-          "min_hr": 118,
-          "avg_cadence": 79.2006,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "34s@118bpm79rpm",
-          "duration_secs": 34,
-          "moving_secs": 34,
-          "start_secs": 1406,
-          "end_secs": 1440,
-          "avg_hr": 118,
-          "max_hr": 120,
-          "min_hr": 118,
-          "avg_cadence": 78.64706,
           "zone": 1
         }
       ],
@@ -706,24 +627,6 @@
         "attempts": 22,
         "first_seen": "2026-10-14T14:16:20.079843",
         "last_attempt": "2026-10-17T08:28:14.834160",
-        "status": "tombstone",
-        "reason": "retry_expired"
-      }
-    },
-    "i196378175": {
-      "date": "2026-10-12",
-      "intervals": {
-        "attempts": 1,
-        "first_seen": "2026-10-14T14:16:20.079843",
-        "last_attempt": "2026-10-14T14:16:20.079843",
-        "status": "ok",
-        "reason": "ok",
-        "source_icu_sync_date": "2026-10-12T08:41:14.617+00:00"
-      },
-      "streams": {
-        "attempts": 14,
-        "first_seen": "2026-10-14T14:16:20.079843",
-        "last_attempt": "2026-10-15T06:01:49.853553",
         "status": "tombstone",
         "reason": "retry_expired"
       }
