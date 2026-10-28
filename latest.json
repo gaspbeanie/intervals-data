@@ -71,7 +71,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-28T20:40:55.546977",
+    "last_updated": "2026-10-28T21:38:31.386051",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.139"
@@ -707,7 +707,7 @@
     "p_max": 997,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 64.0,
-    "calculation_timestamp": "2026-10-28T20:40:55.545660",
+    "calculation_timestamp": "2026-10-28T21:38:31.384690",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -4694,7 +4694,7 @@
     {
       "id": 149358290,
       "date": "2026-11-03",
-      "name": "Sub-pr\u00f3g 4\u00d712\u2032",
+      "name": "Sub-pr\u00f3g (MIT) 4\u00d712\u2032",
       "type": "WORKOUT",
       "sport_type": "Ride",
       "planned_tss": 91,
@@ -4703,7 +4703,7 @@
       "workout_summary": "15m [target not shown] | 4\u00d7(12m [target not shown] + 3m [target not shown]) | 10m [target not shown]",
       "has_terrain": false,
       "start_time": "07:00",
-      "description": "Szkielet Bakkena, pierwsza sesja po przerwie. Kotwica wewn\u0119trzna wa\u017cniejsza ni\u017c waty: 1. odcinek HR \u2264145, ostatni \u2264154 (VT2 HR) lub HR z VT2 z poniedzia\u0142kowej rampy; VE poni\u017cej VE z VT2 (120 lub nowa). Gdy HR/VE dochodzi do pu\u0142apu \u2014 obni\u017c moc. Ko\u0144czysz z poczuciem \u201emog\u0142em wi\u0119cej\u201d.\nERG: Kickr; zapis Garmin (Assioma). Przy\u015blij te\u017c FIT z Zwift \u2014 por\u00f3wnanie Kickr vs Assioma na odcinkach steady.\nWaty w % FTP: po te\u015bcie 20\u2032 z 29 X ustaw FTP = nowe CP, przelicz\u0105 si\u0119 same.\n\nWarmup\n- 15m 60% intensity=warmup\n\nMain Set 4x\n- 12m 88-93% intensity=interval\n- 3m 50% intensity=recovery\n\nCooldown\n- 10m 50% intensity=cooldown"
+      "description": "Sub-pr\u00f3g (MIT), pierwsza sesja po przerwie. Kotwica wewn\u0119trzna wa\u017cniejsza ni\u017c waty: 1. odcinek HR \u2264145, ostatni \u2264154 (VT2 HR) lub HR z VT2 z poniedzia\u0142kowej rampy; VE poni\u017cej VE z VT2 (120 lub nowa). Gdy HR/VE dochodzi do pu\u0142apu \u2014 obni\u017c moc. Ko\u0144czysz z poczuciem \u201emog\u0142em wi\u0119cej\u201d.\nERG: Kickr; zapis Garmin (Assioma). Przy\u015blij te\u017c FIT z Zwift \u2014 por\u00f3wnanie Kickr vs Assioma na odcinkach steady.\nWaty w % FTP: po te\u015bcie 20\u2032 z 29 X ustaw FTP = nowe CP, przelicz\u0105 si\u0119 same.\n\nWarmup\n- 15m 60% intensity=warmup\n\nMain Set 4x\n- 12m 88-93% intensity=interval\n- 3m 50% intensity=recovery\n\nCooldown\n- 10m 50% intensity=cooldown"
     },
     {
       "id": 149358291,
