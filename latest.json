@@ -71,7 +71,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-28T18:45:33.250670",
+    "last_updated": "2026-10-28T19:45:50.818834",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.139"
@@ -299,7 +299,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 8382,
+      "steps": 8739,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -671,10 +671,10 @@
           "hard_sessions_planned": 1,
           "current_week_hard_days_completed": 2,
           "current_week_hard_days_total": 3,
-          "race_proximity": 10,
-          "next_week_load": null,
+          "race_proximity": 14,
+          "next_week_load": 2.0,
           "plan_coverage_current_week": 1.25,
-          "plan_coverage_next_week": 0.25
+          "plan_coverage_next_week": 2.25
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -707,7 +707,7 @@
     "p_max": 997,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 64.0,
-    "calculation_timestamp": "2026-10-28T18:45:33.249357",
+    "calculation_timestamp": "2026-10-28T19:45:50.817468",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -4586,7 +4586,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 8382,
+      "steps": 8739,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -4679,17 +4679,123 @@
       "description": ""
     },
     {
-      "id": 148869512,
-      "date": "2026-11-07",
-      "name": "race zwift",
-      "type": "RACE_C",
+      "id": 149358289,
+      "date": "2026-11-02",
+      "name": "Test rampowy Vital Pro",
+      "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
+      "planned_tss": 40,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": null
+      "description": "Tw\u00f3j standardowy protok\u00f3\u0142 Vital Pro: 20 W/min do odmowy, z kofein\u0105 jak zawsze, ta sama rozgrzewka co zwykle.\n\u0179r\u00f3d\u0142o mocy: Assioma (jak w poprzednich testach \u2014 por\u00f3wnywalno\u015b\u0107). Zapis: Garmin + Vital Pro.\nJe\u015bli mo\u017cesz \u2014 wcze\u015bniej w ci\u0105gu dnia (kofeina a sen).\nCel: MAP, VT1/VT2 (moc, HR, VE), VO2max \u2014 punkt wyj\u015bcia przed blokiem. Retest 1 XII w identycznych warunkach."
+    },
+    {
+      "id": 149358290,
+      "date": "2026-11-03",
+      "name": "Sub-pr\u00f3g 4\u00d712\u2032",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 91,
+      "duration_hours": 1.42,
+      "duration_formatted": "1h25m",
+      "workout_summary": "15m [target not shown] | 4\u00d7(12m [target not shown] + 3m [target not shown]) | 10m [target not shown]",
+      "has_terrain": false,
+      "start_time": "07:00",
+      "description": "Szkielet Bakkena, pierwsza sesja po przerwie. Kotwica wewn\u0119trzna wa\u017cniejsza ni\u017c waty: 1. odcinek HR \u2264145, ostatni \u2264154 (VT2 HR) lub HR z VT2 z poniedzia\u0142kowej rampy; VE poni\u017cej VE z VT2 (120 lub nowa). Gdy HR/VE dochodzi do pu\u0142apu \u2014 obni\u017c moc. Ko\u0144czysz z poczuciem \u201emog\u0142em wi\u0119cej\u201d.\nERG: Kickr; zapis Garmin (Assioma). Przy\u015blij te\u017c FIT z Zwift \u2014 por\u00f3wnanie Kickr vs Assioma na odcinkach steady.\nWaty w % FTP: po te\u015bcie 20\u2032 z 29 X ustaw FTP = nowe CP, przelicz\u0105 si\u0119 same.\n\nWarmup\n- 15m 60% intensity=warmup\n\nMain Set 4x\n- 12m 88-93% intensity=interval\n- 3m 50% intensity=recovery\n\nCooldown\n- 10m 50% intensity=cooldown"
+    },
+    {
+      "id": 149358291,
+      "date": "2026-11-03",
+      "name": "Bieg spokojny",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 21,
+      "duration_hours": 0.53,
+      "duration_formatted": "32m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "16:00",
+      "description": "30\u201335 min spokojnie, HR ~130\u2013135. Po sesji sub-progowej (ci\u0119\u017cko w dni ci\u0119\u017ckie).\n\nMain Set 1x\n- 32m Z1 HR intensity=warmup"
+    },
+    {
+      "id": 149358292,
+      "date": "2026-11-03",
+      "name": "Si\u0142ownia",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": null,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "16:45",
+      "description": "Ci\u0119\u017cko, ma\u0142o powt\u00f3rze\u0144, RPE 7\u20138, bez dociskania do upadku. Jedyna si\u0142ownia w tym tygodniu (czw/pt wypadaj\u0105 za blisko sobotniego HIDIT)."
+    },
+    {
+      "id": 149358294,
+      "date": "2026-11-04",
+      "name": "Z2",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 45,
+      "duration_hours": 1.17,
+      "duration_formatted": "1h10m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "Spokojne Z2, 190\u2013215 W, kadencja swobodna.\n\nMain Set 1x\n- 70m 58-66% intensity=interval"
+    },
+    {
+      "id": 149358295,
+      "date": "2026-11-05",
+      "name": "Z2",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 51,
+      "duration_hours": 1.33,
+      "duration_formatted": "1h20m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "Z2 bez akcent\u00f3w, 60\u201390 min (2 dni przed HIDIT).\nMain Set 1x\n- 80m 58-66% intensity=interval"
+    },
+    {
+      "id": 149358296,
+      "date": "2026-11-06",
+      "name": "Z1 albo wolne",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 16,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "Regeneracja (Z1) albo dzie\u0144 wolny \u2014 wg samopoczucia.\nMain Set 1x\n- 40m 45-52% intensity=recovery"
+    },
+    {
+      "id": 149358297,
+      "date": "2026-11-07",
+      "name": "HIDIT (sesja X)",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 93,
+      "duration_hours": 1.24,
+      "duration_formatted": "1h14m10s",
+      "workout_summary": "15m [target not shown] | 3\u00d7(30s [target not shown] + 1m [target not shown]) | [repeat not summarized] | [repeat not summarized] | 5\u00d7(30s [target not shown] + 20s [target not shown]) | [repeat not summarized] | [repeat not summarized] | 5\u00d7(30s [target not shown] + 20s [target not shown]) | 10m [target not shown]",
+      "has_terrain": false
+    },
+    {
+      "id": 149358298,
+      "date": "2026-11-08",
+      "name": "D\u0142ugie Z2",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 110,
+      "duration_hours": 2.75,
+      "duration_formatted": "2h45m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "Szosa (je\u015bli pogoda), 2:30\u20133:00 h, 190\u2013225 W, bez akcent\u00f3w.\nMain Set 1x\n- 165m 58-69% intensity=interval"
     },
     {
       "id": 148870060,
@@ -4797,12 +4903,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 4,
-    "success": 1,
-    "patternA": 1,
+    "attempted": 11,
+    "success": 3,
+    "patternA": 3,
     "patternB": 0,
-    "bail_no_workout_doc": 1,
-    "bail_no_match": 3
+    "bail_no_workout_doc": 3,
+    "bail_no_match": 8
   },
   "weekly_summary": {
     "total_training_hours": 5.14,
@@ -4815,10 +4921,10 @@
   "race_calendar": {
     "next_race": {
       "name": "race zwift",
-      "date": "2026-11-07",
+      "date": "2026-11-11",
       "category": "RACE_C",
       "type": "Ride",
-      "days_until": 10,
+      "days_until": 14,
       "moving_time_seconds": null,
       "distance_meters": null,
       "display": {
@@ -4827,19 +4933,6 @@
       "has_terrain": false
     },
     "all_races": [
-      {
-        "name": "race zwift",
-        "date": "2026-11-07",
-        "category": "RACE_C",
-        "type": "Ride",
-        "days_until": 10,
-        "moving_time_seconds": null,
-        "distance_meters": null,
-        "display": {
-          "distance": null
-        },
-        "has_terrain": false
-      },
       {
         "name": "race zwift",
         "date": "2026-11-11",
