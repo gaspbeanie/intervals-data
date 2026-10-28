@@ -71,7 +71,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-28T14:53:18.783425",
+    "last_updated": "2026-10-28T15:50:36.073553",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.139"
@@ -137,7 +137,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 25.2
+        "value": 30.1
       }
     },
     "signal_summary": {
@@ -222,10 +222,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 77.13,
-      "atl": 51.95,
-      "tsb": 25.18,
-      "ramp_rate": -6.07,
+      "ctl": 76.07,
+      "atl": 45.96,
+      "tsb": 30.11,
+      "ramp_rate": -7.13,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -707,7 +707,7 @@
     "p_max": 997,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 64.0,
-    "calculation_timestamp": "2026-10-28T14:53:18.782060",
+    "calculation_timestamp": "2026-10-28T15:50:36.072172",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -725,7 +725,7 @@
       "id": "i202785226",
       "date": "2026-10-28T13:44:40",
       "type": "Ride",
-      "name": "Ustro\u0144 Kol. szosowe",
+      "name": "Z2",
       "duration_hours": 1.86,
       "duration_formatted": "1h51m51s",
       "distance_km": 41.84,
