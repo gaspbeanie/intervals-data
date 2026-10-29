@@ -71,7 +71,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-29T17:46:59.433688",
+    "last_updated": "2026-10-29T18:47:59.901606",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.139"
@@ -671,7 +671,7 @@
           "current_week_hard_days_completed": 3,
           "current_week_hard_days_total": 4,
           "race_proximity": 13,
-          "next_week_load": 2.0,
+          "next_week_load": 2.16,
           "plan_coverage_current_week": 1.0,
           "plan_coverage_next_week": 2.25
         },
@@ -706,7 +706,7 @@
     "p_max": 996,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 64.0,
-    "calculation_timestamp": "2026-10-29T17:46:59.432967",
+    "calculation_timestamp": "2026-10-29T18:47:59.900263",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -724,7 +724,7 @@
       "id": "i203245257",
       "date": "2026-10-29T16:23:27",
       "type": "VirtualRide",
-      "name": "Test 20 min",
+      "name": "Test 10 min",
       "duration_hours": 1.01,
       "duration_formatted": "1h51s",
       "distance_km": 30.02,
@@ -1028,7 +1028,7 @@
       "id": "i202335295",
       "date": "2026-10-27T15:00:01",
       "type": "VirtualRide",
-      "name": "Test 5 min",
+      "name": "Test 4 min",
       "duration_hours": 1.0,
       "duration_formatted": "1h14s",
       "distance_km": 28.88,
@@ -4564,17 +4564,17 @@
       "description": ""
     },
     {
-      "id": 149358289,
+      "id": 149358297,
       "date": "2026-11-02",
-      "name": "Test rampowy Vital Pro",
+      "name": "HIDIT (sesja X)",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 40,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
+      "planned_tss": 92,
+      "duration_hours": 1.24,
+      "duration_formatted": "1h14m10s",
+      "workout_summary": "15m [target not shown] | 3\u00d7(30s [target not shown] + 1m [target not shown]) | [repeat not summarized] | [repeat not summarized] | 5\u00d7(30s [target not shown] + 20s [target not shown]) | [repeat not summarized] | [repeat not summarized] | 5\u00d7(30s [target not shown] + 20s [target not shown]) | 10m [target not shown]",
       "has_terrain": false,
-      "description": "Tw\u00f3j standardowy protok\u00f3\u0142 Vital Pro: 20 W/min do odmowy, z kofein\u0105 jak zawsze, ta sama rozgrzewka co zwykle.\n\u0179r\u00f3d\u0142o mocy: Assioma (jak w poprzednich testach \u2014 por\u00f3wnywalno\u015b\u0107). Zapis: Garmin + Vital Pro.\nJe\u015bli mo\u017cesz \u2014 wcze\u015bniej w ci\u0105gu dnia (kofeina a sen).\nCel: MAP, VT1/VT2 (moc, HR, VE), VO2max \u2014 punkt wyj\u015bcia przed blokiem. Retest 1 XII w identycznych warunkach."
+      "description": "HIDIT (wariant Mirka) w miejsce wy\u015bcigu. ON 117% / OFF 83% FTP 315 = ~369 / ~261 W. FTP w Zwift musi by\u0107 315 (Zwift liczy waty z w\u0142asnego FTP).\n2. seria wpisana w watach: ON 364 / OFF 256 W (= 1. seria \u22125 W).\n2. seria tylko, je\u015bli 1. wysz\u0142a (\u015brednie ON/OFF w celu, bez zjazd\u00f3w mocy). Analizujemy obie serie, je\u015bli wykonane w ca\u0142o\u015bci.\nPrzerwa mi\u0119dzy seriami 10\u2032. ERG: Kickr; zapis Garmin (Assioma) + Vital Pro. Przy\u015blij FIT z Zwift. Rozgrzewka orientacyjna.\n\nWarmup\n- 15m 60% intensity=warmup\n\nMain Set 3x\n- 30s 110% intensity=interval\n- 1m 55% intensity=recovery\n\nMain Set 1x\n- 5m 55% intensity=recovery\n\nMain Set 1x\n- 3m 117% intensity=interval\n- 1m40s 83% intensity=recovery\n- 1m45s 117% intensity=interval\n- 1m20s 83% intensity=recovery\n- 1m 117% intensity=interval\n- 40s 83% intensity=recovery\n- 45s 117% intensity=interval\n- 30s 83% intensity=recovery\n\nMain Set 5x\n- 30s 117% intensity=interval\n- 20s 83% intensity=recovery\n\nMain Set 1x\n- 10m 50% intensity=recovery\n\nMain Set 1x\n- 3m 364w intensity=interval\n- 1m40s 256w intensity=recovery\n- 1m45s 364w intensity=interval\n- 1m20s 256w intensity=recovery\n- 1m 364w intensity=interval\n- 40s 256w intensity=recovery\n- 45s 364w intensity=interval\n- 30s 256w intensity=recovery\n\nMain Set 5x\n- 30s 364w intensity=interval\n- 20s 256w intensity=recovery\n\nCooldown\n- 10m 50% intensity=cooldown"
     },
     {
       "id": 149358290,
@@ -4582,13 +4582,13 @@
       "name": "Sub-pr\u00f3g (MIT) 4\u00d712\u2032",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 91,
+      "planned_tss": 84,
       "duration_hours": 1.42,
       "duration_formatted": "1h25m",
       "workout_summary": "15m [target not shown] | 4\u00d7(12m [target not shown] + 3m [target not shown]) | 10m [target not shown]",
       "has_terrain": false,
       "start_time": "07:00",
-      "description": "Sub-pr\u00f3g (MIT), pierwsza sesja po przerwie. Kotwica wewn\u0119trzna wa\u017cniejsza ni\u017c waty: 1. odcinek HR \u2264145, ostatni \u2264154 (VT2 HR) lub HR z VT2 z poniedzia\u0142kowej rampy; VE poni\u017cej VE z VT2 (120 lub nowa). Gdy HR/VE dochodzi do pu\u0142apu \u2014 obni\u017c moc. Ko\u0144czysz z poczuciem \u201emog\u0142em wi\u0119cej\u201d.\nERG: Kickr; zapis Garmin (Assioma). Przy\u015blij te\u017c FIT z Zwift \u2014 por\u00f3wnanie Kickr vs Assioma na odcinkach steady.\nWaty w % FTP: po te\u015bcie 20\u2032 z 29 X ustaw FTP = nowe CP, przelicz\u0105 si\u0119 same.\n\nWarmup\n- 15m 60% intensity=warmup\n\nMain Set 4x\n- 12m 88-93% intensity=interval\n- 3m 50% intensity=recovery\n\nCooldown\n- 10m 50% intensity=cooldown"
+      "description": "Sub-pr\u00f3g (MIT), dzie\u0144 po HIDIT. Kotwice z profilu Tymewear: VT2 = 285 W / HR 149 / VE 107. Pu\u0142ap: HR \u2264149, VE <107 \u2014 gdy dochodzi do pu\u0142apu, obni\u017c moc. Ko\u0144czysz z poczuciem \u201emog\u0142em wi\u0119cej\u201d. Je\u015bli po HIDIT nogi ci\u0119\u017ckie \u2014 skr\u00f3\u0107 do 3\u00d712\u2032.\nERG: Kickr; zapis Garmin (Assioma) + Vital Pro.\nWaty w % FTP 315: 84\u201389% = 265\u2013280 W (poni\u017cej VT2).\n\nWarmup\n- 15m 60% intensity=warmup\n\nMain Set 4x\n- 12m 84-89% intensity=interval\n- 3m 50% intensity=recovery\n\nCooldown\n- 10m 50% intensity=cooldown"
     },
     {
       "id": 149358291,
@@ -4658,15 +4658,15 @@
       "description_preview": "Regeneracja (Z1) albo dzie\u0144 wolny \u2014 wg samopoczucia.\nMain Set 1x\n- 40m 45-52% intensity=recovery"
     },
     {
-      "id": 149358297,
+      "id": 149734800,
       "date": "2026-11-07",
-      "name": "HIDIT (sesja X)",
+      "name": "Sub-pr\u00f3g (MIT) 4\u00d712\u2032",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 92,
-      "duration_hours": 1.24,
-      "duration_formatted": "1h14m10s",
-      "workout_summary": "15m [target not shown] | 3\u00d7(30s [target not shown] + 1m [target not shown]) | [repeat not summarized] | [repeat not summarized] | 5\u00d7(30s [target not shown] + 20s [target not shown]) | [repeat not summarized] | [repeat not summarized] | 5\u00d7(30s [target not shown] + 20s [target not shown]) | 10m [target not shown]",
+      "planned_tss": 84,
+      "duration_hours": 1.42,
+      "duration_formatted": "1h25m",
+      "workout_summary": "15m [target not shown] | 4\u00d7(12m [target not shown] + 3m [target not shown]) | 10m [target not shown]",
       "has_terrain": false
     },
     {
@@ -4680,7 +4680,7 @@
       "duration_formatted": "2h45m",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "Szosa (je\u015bli pogoda), 2:30\u20133:00 h, 190\u2013225 W, bez akcent\u00f3w.\nMain Set 1x\n- 165m 58-69% intensity=interval"
+      "description_preview": "Szosa (je\u015bli pogoda), 2:30\u20133:00 h, ~185\u2013215 W (58\u201369% FTP 315), bez akcent\u00f3w.\nMain Set 1x\n- 165m 58-69% intensity=interval"
     },
     {
       "id": 148870060,
@@ -4788,11 +4788,11 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 10,
-    "success": 3,
-    "patternA": 3,
+    "attempted": 11,
+    "success": 4,
+    "patternA": 4,
     "patternB": 0,
-    "bail_no_workout_doc": 3,
+    "bail_no_workout_doc": 2,
     "bail_no_match": 7
   },
   "weekly_summary": {

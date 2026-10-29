@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T17:46:59.107767",
+  "generated_at": "2026-10-29T18:47:59.255499",
   "schema_version": 1,
   "version": "3.139",
   "script_hash": "643c6e9c8b36",
@@ -761,7 +761,8 @@
       "type": "VirtualRide",
       "name": "Test 20 min",
       "interval_summary": [
-        "1x 10m 324w"
+        "1x 10m 324w",
+        "1x 5s 938w"
       ],
       "intervals": [
         {
@@ -801,20 +802,55 @@
         },
         {
           "type": "RECOVERY",
-          "duration_secs": 1274,
-          "moving_secs": 1274,
+          "duration_secs": 632,
+          "moving_secs": 632,
           "start_secs": 2394,
-          "end_secs": 3668,
-          "avg_power": 176,
-          "max_power": 966,
-          "avg_hr": 118,
+          "end_secs": 3026,
+          "avg_power": 175,
+          "max_power": 885,
+          "avg_hr": 119,
           "max_hr": 170,
           "min_hr": 101,
-          "avg_cadence": 81.375984,
+          "avg_cadence": 77.995255,
           "zone": 1,
           "w_bal_start": 23013,
+          "w_bal_end": 24800,
+          "training_load": 5.6074095
+        },
+        {
+          "type": "WORK",
+          "label": "5s@938w81rpm",
+          "duration_secs": 5,
+          "moving_secs": 5,
+          "start_secs": 3026,
+          "end_secs": 3031,
+          "avg_power": 938,
+          "max_power": 966,
+          "avg_hr": 117,
+          "max_hr": 118,
+          "min_hr": 117,
+          "avg_cadence": 81.4,
+          "zone": 7,
+          "w_bal_start": 24219,
+          "w_bal_end": 21732,
+          "training_load": 0.13130309
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 637,
+          "moving_secs": 637,
+          "start_secs": 3031,
+          "end_secs": 3668,
+          "avg_power": 171,
+          "max_power": 949,
+          "avg_hr": 117,
+          "max_hr": 150,
+          "min_hr": 106,
+          "avg_cadence": 84.72999,
+          "zone": 1,
+          "w_bal_start": 21108,
           "w_bal_end": 25866,
-          "training_load": 13.70924
+          "training_load": 7.743675
         }
       ],
       "zone_basis": "power"
@@ -973,20 +1009,20 @@
       "date": "2026-10-29",
       "paired_planned": true,
       "intervals": {
-        "attempts": 1,
-        "first_seen": "2026-10-29T16:52:17.045985",
-        "last_attempt": "2026-10-29T16:52:17.045985",
-        "status": "ok",
-        "reason": "ok",
-        "source_icu_sync_date": "2026-10-29T16:45:57.031+00:00"
-      },
-      "streams": {
         "attempts": 2,
         "first_seen": "2026-10-29T16:52:17.045985",
-        "last_attempt": "2026-10-29T17:46:59.107767",
+        "last_attempt": "2026-10-29T18:47:59.255499",
+        "status": "ok",
+        "reason": "ok",
+        "source_icu_sync_date": "2026-10-29T18:22:03.135+00:00"
+      },
+      "streams": {
+        "attempts": 3,
+        "first_seen": "2026-10-29T16:52:17.045985",
+        "last_attempt": "2026-10-29T18:47:59.255499",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-10-29T17:51:59.107767"
+        "next_retry_at": "2026-10-29T18:52:59.255499"
       }
     }
   }
