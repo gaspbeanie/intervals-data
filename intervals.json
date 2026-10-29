@@ -1,34 +1,11 @@
 {
-  "generated_at": "2026-10-28T23:35:24.731701",
+  "generated_at": "2026-10-29T00:08:15.934597",
   "schema_version": 1,
   "version": "3.139",
   "script_hash": "643c6e9c8b36",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i197121409",
-      "date": "2026-10-14",
-      "start_datetime": "2026-10-14T09:41:53",
-      "type": "TrailRun",
-      "name": "Poranny bieg terenowy",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 3734,
-          "moving_secs": 3734,
-          "start_secs": 0,
-          "end_secs": 3734,
-          "avg_hr": 132,
-          "max_hr": 165,
-          "min_hr": 60,
-          "avg_cadence": 73.828,
-          "zone": 1
-        }
-      ],
-      "zone_basis": "hr"
-    },
     {
       "activity_id": "i198241659",
       "date": "2026-10-17",
@@ -779,24 +756,6 @@
     }
   ],
   "fetch_state": {
-    "i197121409": {
-      "date": "2026-10-14",
-      "intervals": {
-        "attempts": 1,
-        "first_seen": "2026-10-14T14:16:20.079843",
-        "last_attempt": "2026-10-14T14:16:20.079843",
-        "status": "ok",
-        "reason": "ok",
-        "source_icu_sync_date": "2026-10-14T09:21:25.216+00:00"
-      },
-      "streams": {
-        "attempts": 22,
-        "first_seen": "2026-10-14T14:16:20.079843",
-        "last_attempt": "2026-10-17T08:28:14.834160",
-        "status": "tombstone",
-        "reason": "retry_expired"
-      }
-    },
     "i198241659": {
       "date": "2026-10-17",
       "intervals": {
@@ -936,12 +895,12 @@
         "source_icu_sync_date": "2026-10-28T14:52:07.631+00:00"
       },
       "streams": {
-        "attempts": 10,
+        "attempts": 11,
         "first_seen": "2026-10-28T14:53:17.644474",
-        "last_attempt": "2026-10-28T23:35:24.731701",
+        "last_attempt": "2026-10-29T00:08:15.934597",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-10-29T00:05:24.731701"
+        "next_retry_at": "2026-10-29T00:38:15.934597"
       },
       "paired_planned": true
     }
