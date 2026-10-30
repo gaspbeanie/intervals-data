@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T19:22:21.952732",
+  "generated_at": "2026-10-30T20:12:33.635928",
   "schema_version": 1,
   "version": "3.139",
   "script_hash": "643c6e9c8b36",
@@ -854,6 +854,34 @@
         }
       ],
       "zone_basis": "power"
+    },
+    {
+      "activity_id": "i203678380",
+      "date": "2026-10-30",
+      "start_datetime": "2026-10-30T17:59:59",
+      "type": "VirtualRide",
+      "name": "D\u0142ugie Z2",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 8403,
+          "moving_secs": 8403,
+          "start_secs": 0,
+          "end_secs": 8403,
+          "avg_power": 195,
+          "max_power": 339,
+          "avg_hr": 120,
+          "max_hr": 143,
+          "min_hr": 80,
+          "avg_cadence": 87.09556,
+          "zone": 2,
+          "w_bal_start": 15000,
+          "w_bal_end": 14999,
+          "training_load": 95.03922
+        }
+      ],
+      "zone_basis": "power"
     }
   ],
   "fetch_state": {
@@ -1022,6 +1050,26 @@
         "status": "pending",
         "reason": "no_data",
         "next_retry_at": "2026-10-30T23:17:20.397718"
+      }
+    },
+    "i203678380": {
+      "date": "2026-10-30",
+      "paired_planned": true,
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-10-30T20:12:33.635928",
+        "last_attempt": "2026-10-30T20:12:33.635928",
+        "status": "ok",
+        "reason": "ok",
+        "source_icu_sync_date": "2026-10-30T19:22:59.462+00:00"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-10-30T20:12:33.635928",
+        "last_attempt": "2026-10-30T20:12:33.635928",
+        "status": "pending",
+        "reason": "no_data",
+        "next_retry_at": "2026-10-30T20:17:33.635928"
       }
     }
   }
