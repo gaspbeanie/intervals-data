@@ -71,7 +71,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-30T12:13:13.050465",
+    "last_updated": "2026-10-30T13:35:38.373346",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.139"
@@ -299,7 +299,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 210,
+      "steps": 2641,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -707,13 +707,13 @@
     "p_max": 995,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-30T12:13:13.049743",
+    "calculation_timestamp": "2026-10-30T13:35:38.372045",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 5,
       "activities_28d": 16,
-      "planned_workouts_7d": 5,
+      "planned_workouts_7d": 4,
       "ftp_history_days": {
         "indoor": 15,
         "outdoor": 15
@@ -4485,7 +4485,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 210,
+      "steps": 2641,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -4498,22 +4498,35 @@
   ],
   "planned_workouts": [
     {
-      "id": 148066796,
+      "id": 148066804,
       "date": "2026-10-30",
+      "name": "D\u0142ugie Z2",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 111,
+      "duration_hours": 2.75,
+      "duration_formatted": "2h45m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "Zamiana z sobot\u0105. Szosa, 2:30\u20133:00 h, ~185\u2013215 W (58\u201369% FTP 315), bez akcent\u00f3w.\n\nMain Set 1x\n- 165m 58-69% intensity=interval"
+    },
+    {
+      "id": 148066796,
+      "date": "2026-10-31",
       "name": "Bieg spokojny",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 21,
-      "duration_hours": 0.53,
-      "duration_formatted": "32m",
+      "planned_tss": 15,
+      "duration_hours": 0.38,
+      "duration_formatted": "23m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
-      "description": "30\u201335 min spokojnie, HR ~130\u2013135.\n\nMain Set 1x\n- 32m Z1 HR intensity=warmup"
+      "description": "Superlekko 20\u201325 min, HR \u2264130 (2 dni przed HIDIT \u2014 bez zbieg\u00f3w, p\u0142asko).\n\nMain Set 1x\n- 23m Z1 HR intensity=warmup"
     },
     {
       "id": 148066799,
-      "date": "2026-10-30",
+      "date": "2026-10-31",
       "name": "Si\u0142ownia",
       "type": "WORKOUT",
       "sport_type": "WeightTraining",
@@ -4523,20 +4536,7 @@
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "10:00",
-      "description": "Ci\u0119\u017cko, ma\u0142o powt\u00f3rze\u0144. Pierwsza sesja po przerwie: ~RPE 7, bez dociskania do upadku."
-    },
-    {
-      "id": 148066804,
-      "date": "2026-10-31",
-      "name": "D\u0142ugie Z2",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 111,
-      "duration_hours": 2.75,
-      "duration_formatted": "2h45m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "Szosa, 2:30\u20133:00 h, 190\u2013225 W, bez akcent\u00f3w.\n\nMain Set 1x\n- 165m 58-69% intensity=interval"
+      "description": "L\u017cej ni\u017c zwykle (2 dni przed HIDIT): RPE ~6, bez dociskania do upadku, bez akcentu na faz\u0119 ekscentryczn\u0105 (wolne opuszczanie)."
     },
     {
       "id": 148066010,
