@@ -71,7 +71,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-31T15:10:22.055638",
+    "last_updated": "2026-10-31T16:06:25.015572",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.139"
@@ -680,7 +680,7 @@
           "current_week_hard_days_total": 3,
           "race_proximity": 11,
           "next_week_load": 2.16,
-          "plan_coverage_current_week": 0.5,
+          "plan_coverage_current_week": 0.25,
           "plan_coverage_next_week": 2.25
         },
         "data_quality": "good",
@@ -716,13 +716,13 @@
     "p_max": 994,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-31T15:10:22.054308",
+    "calculation_timestamp": "2026-10-31T16:06:25.014277",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 6,
       "activities_28d": 17,
-      "planned_workouts_7d": 6,
+      "planned_workouts_7d": 5,
       "ftp_history_days": {
         "indoor": 15,
         "outdoor": 15
@@ -4294,20 +4294,6 @@
       "description": "Superlekko 20\u201325 min, HR \u2264130 (2 dni przed HIDIT \u2014 bez zbieg\u00f3w, p\u0142asko).\n\nMain Set 1x\n- 23m Z1 HR intensity=warmup"
     },
     {
-      "id": 148066799,
-      "date": "2026-10-31",
-      "name": "Si\u0142ownia",
-      "type": "WORKOUT",
-      "sport_type": "WeightTraining",
-      "planned_tss": null,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "10:00",
-      "description": "L\u017cej ni\u017c zwykle (2 dni przed HIDIT): RPE ~6, bez dociskania do upadku, bez akcentu na faz\u0119 ekscentryczn\u0105 (wolne opuszczanie)."
-    },
-    {
       "id": 148066010,
       "date": "2026-11-01",
       "name": "rest",
@@ -4588,7 +4574,7 @@
     "success": 4,
     "patternA": 4,
     "patternB": 0,
-    "bail_no_workout_doc": 2,
+    "bail_no_workout_doc": 1,
     "bail_no_match": 7
   },
   "weekly_summary": {
