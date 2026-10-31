@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T09:38:04.570959",
+  "generated_at": "2026-10-31T10:36:08.877383",
   "schema_version": 1,
   "version": "3.139",
   "script_hash": "643c6e9c8b36",
@@ -882,6 +882,71 @@
         }
       ],
       "zone_basis": "power"
+    },
+    {
+      "activity_id": "i203847953",
+      "date": "2026-10-31",
+      "start_datetime": "2026-10-31T10:30:25",
+      "type": "TrailRun",
+      "name": "Bieg spokojny",
+      "interval_summary": [
+        "4x 6m14s 111bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "374s@111bpm80rpm",
+          "duration_secs": 378,
+          "moving_secs": 378,
+          "start_secs": 0,
+          "end_secs": 378,
+          "avg_hr": 108,
+          "max_hr": 125,
+          "min_hr": 82,
+          "avg_cadence": 79.72487,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "374s@111bpm80rpm",
+          "duration_secs": 361,
+          "moving_secs": 361,
+          "start_secs": 378,
+          "end_secs": 739,
+          "avg_hr": 108,
+          "max_hr": 120,
+          "min_hr": 98,
+          "avg_cadence": 81.14404,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "374s@111bpm80rpm",
+          "duration_secs": 376,
+          "moving_secs": 376,
+          "start_secs": 739,
+          "end_secs": 1115,
+          "avg_hr": 110,
+          "max_hr": 130,
+          "min_hr": 99,
+          "avg_cadence": 79.827126,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "374s@111bpm80rpm",
+          "duration_secs": 379,
+          "moving_secs": 379,
+          "start_secs": 1115,
+          "end_secs": 1494,
+          "avg_hr": 119,
+          "max_hr": 132,
+          "min_hr": 104,
+          "avg_cadence": 78.440636,
+          "zone": 1
+        }
+      ],
+      "zone_basis": "hr"
     }
   ],
   "fetch_state": {
@@ -1070,6 +1135,26 @@
         "status": "pending",
         "reason": "no_data",
         "next_retry_at": "2026-10-31T13:51:09.427883"
+      }
+    },
+    "i203847953": {
+      "date": "2026-10-31",
+      "paired_planned": true,
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-10-31T10:36:08.877383",
+        "last_attempt": "2026-10-31T10:36:08.877383",
+        "status": "ok",
+        "reason": "ok",
+        "source_icu_sync_date": "2026-10-31T09:55:59.717+00:00"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-10-31T10:36:08.877383",
+        "last_attempt": "2026-10-31T10:36:08.877383",
+        "status": "pending",
+        "reason": "no_data",
+        "next_retry_at": "2026-10-31T10:41:08.877383"
       }
     }
   }
