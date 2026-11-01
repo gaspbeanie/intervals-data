@@ -71,7 +71,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-01T09:42:23.209500",
+    "last_updated": "2026-11-01T10:38:23.188799",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.139"
@@ -678,9 +678,9 @@
           "current_week_hard_days_completed": 3,
           "current_week_hard_days_total": 3,
           "race_proximity": 10,
-          "next_week_load": 2.3,
+          "next_week_load": 2.23,
           "plan_coverage_current_week": 0.0,
-          "plan_coverage_next_week": 2.25
+          "plan_coverage_next_week": 2.0
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -715,7 +715,7 @@
     "p_max": 993,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-01T09:42:23.208165",
+    "calculation_timestamp": "2026-11-01T10:38:23.187604",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -4373,17 +4373,17 @@
       "description": "Z2 bez akcent\u00f3w, ~185\u2013210 W, HR <128. Kadencja 90\u201395 (Kafka).\n\nMain Set 1x\n- 90m 58-66% intensity=interval"
     },
     {
-      "id": 149358296,
+      "id": 150511284,
       "date": "2026-11-06",
-      "name": "Wolne albo Z1",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 17,
-      "duration_hours": 0.75,
-      "duration_formatted": "45m",
+      "name": "Wolne",
+      "type": "NOTE",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "Dzie\u0144 wolny albo Z1 regeneracyjnie 40\u201360\u2032 (Z1 nie podlega zasadzie 1:30), ~140\u2013165 W, HR <115.\n\nMain Set 1x\n- 45m 45-52% intensity=recovery"
+      "description": "Dzie\u0144 wolny (wt\u2013czw praca, pt wolne, sob\u2013nd praca)."
     },
     {
       "id": 149734800,
@@ -4555,12 +4555,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 9,
+    "attempted": 8,
     "success": 4,
     "patternA": 4,
     "patternB": 0,
     "bail_no_workout_doc": 1,
-    "bail_no_match": 5
+    "bail_no_match": 4
   },
   "weekly_summary": {
     "total_training_hours": 6.63,
