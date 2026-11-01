@@ -71,7 +71,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-01T20:35:20.495320",
+    "last_updated": "2026-11-01T21:10:26.706233",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.139"
@@ -715,7 +715,7 @@
     "p_max": 993,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-01T20:35:20.493984",
+    "calculation_timestamp": "2026-11-01T21:10:26.705541",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -4283,6 +4283,19 @@
       "date": "2026-11-01",
       "name": "rest",
       "type": "NOTE",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": ""
+    },
+    {
+      "id": 150760941,
+      "date": "2026-11-01",
+      "name": "2027",
+      "type": "SEASON_START",
       "sport_type": null,
       "planned_tss": null,
       "duration_hours": 0.0,
