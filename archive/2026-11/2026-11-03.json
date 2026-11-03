@@ -71,7 +71,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-03T12:22:47.193836",
+    "last_updated": "2026-11-03T13:42:48.632998",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.139"
@@ -672,12 +672,12 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 3.01,
+          "planned_tss_delta": 2.96,
           "hard_sessions_planned": 2,
           "current_week_hard_days_completed": 1,
           "current_week_hard_days_total": 3,
           "race_proximity": 8,
-          "next_week_load": 0.17,
+          "next_week_load": 0.16,
           "plan_coverage_current_week": 1.25,
           "plan_coverage_next_week": 1.5
         },
@@ -712,7 +712,7 @@
     "p_max": 991,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-03T12:22:47.192669",
+    "calculation_timestamp": "2026-11-03T13:42:48.631975",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -4070,10 +4070,10 @@
       "planned_tss": 87,
       "duration_hours": 1.5,
       "duration_formatted": "1h30m",
-      "workout_summary": "15m [target not shown] | 4\u00d7(12m [target not shown] + 3m [target not shown]) | 15m [target not shown]",
+      "workout_summary": "5m [target not shown] | 10m [target not shown] | 4\u00d7(12m [target not shown] + 3m [target not shown]) | 10m [target not shown] | 5m [target not shown]",
       "has_terrain": false,
       "start_time": "07:00",
-      "description": "Sub-pr\u00f3g (MIT), dzie\u0144 po HIDIT. Kotwice z profilu Tymewear: VT2 = 285 W / HR 149 / VE 107. Pu\u0142ap: HR \u2264149, VE <107 \u2014 gdy dochodzi do pu\u0142apu, obni\u017c moc. Ko\u0144czysz z poczuciem \u201emog\u0142em wi\u0119cej\u201d. Je\u015bli po HIDIT nogi ci\u0119\u017ckie \u2014 skr\u00f3\u0107 do 3\u00d712\u2032 i dojed\u017a Z2 do 1:30.\nERG: Kickr; zapis Garmin (Assioma) + Vital Pro.\nWaty w % FTP 300 (od 2 XI): 84\u201389% = 252\u2013267 W. Rozbie\u017cno\u015b\u0107 Kickr vs Assioma ok. \u22126 W (2 XI).\n\nWarmup\n- 15m 60% intensity=warmup\n\nMain Set 4x\n- 12m 84-89% intensity=interval\n- 3m 50% intensity=recovery\n\nCooldown\n- 15m 55% intensity=cooldown"
+      "description": "Sub-pr\u00f3g (MIT), dzie\u0144 po HIDIT. Kotwice z profilu Tymewear: VT2 = 285 W / HR 149 / VE 107. Pu\u0142ap: HR \u2264149, VE <107 \u2014 gdy dochodzi do pu\u0142apu, obni\u017c moc. Ko\u0144czysz z poczuciem \u201emog\u0142em wi\u0119cej\u201d. Je\u015bli nogi ci\u0119\u017ckie \u2014 skr\u00f3\u0107 do 3\u00d712\u2032 i dojed\u017a Z2 do 1:30.\nKostka L: je\u015bli boli przy peda\u0142owaniu >3/10 \u2014 tylko Z2.\nERG: Kickr; zapis Garmin (Assioma) + Vital Pro.\nWaty w % FTP 300 (od 2 XI): 84\u201389% = 252\u2013267 W. Rozbie\u017cno\u015b\u0107 Kickr vs Assioma ok. \u22126 W (2 XI).\n\nWarmup\n- 5m ramp 30-60% intensity=warmup\n- 10m 60% intensity=warmup\n\nMain Set 4x\n- 12m 84-89% intensity=interval\n- 3m 50% intensity=recovery\n\nCooldown\n- 10m 55% intensity=cooldown\n- 5m ramp 55-28% intensity=cooldown"
     },
     {
       "id": 149358294,
@@ -4081,12 +4081,12 @@
       "name": "Z2",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 65,
+      "planned_tss": 63,
       "duration_hours": 1.5,
       "duration_formatted": "1h30m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "Spokojne Z2, ~186\u2013210 W (62\u201370% FTP 300), HR <128 (VT1). Kadencja 90\u201395 (korekta wg Kafki; dotychczas \u015br. ~88).\n\nMain Set 1x\n- 90m 62-70% intensity=interval"
+      "description": "Spokojne Z2, ~186\u2013210 W (62\u201370% FTP 300), HR <128 (VT1). Kadencja 90\u201395 (korekta wg Kafki; dotychczas \u015br. ~88).\n\nWarmup\n- 5m ramp 31-62% intensity=warmup\n\nMain Set 1x\n- 80m 62-70% intensity=interval\n\nCooldown\n- 5m ramp 62-31% intensity=cooldown"
     },
     {
       "id": 150511284,
@@ -4107,12 +4107,12 @@
       "name": "HIDIT (wariant Mirka)",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 107,
+      "planned_tss": 106,
       "duration_hours": 1.57,
       "duration_formatted": "1h34m10s",
-      "workout_summary": "25m [target not shown] | 3\u00d7(30s [target not shown] + 1m [target not shown]) | [repeat not summarized] | [repeat not summarized] | 5\u00d7(30s [target not shown] + 20s [target not shown]) | [repeat not summarized] | [repeat not summarized] | 5\u00d7(30s [target not shown] + 20s [target not shown]) | 20m [target not shown]",
+      "workout_summary": "5m [target not shown] | 20m [target not shown] | 3\u00d7(30s [target not shown] + 1m [target not shown]) | [repeat not summarized] | [repeat not summarized] | 5\u00d7(30s [target not shown] + 20s [target not shown]) | [repeat not summarized] | [repeat not summarized] | 5\u00d7(30s [target not shown] + 20s [target not shown]) | 15m [target not shown] | 5m [target not shown]",
       "has_terrain": false,
-      "description": "Zamiast Z2 + sprint\u00f3w (decyzja Mirka, 2 XI). HIDIT \u2014 wariant Mirka. ON 117% / OFF 83% FTP 300 = 351 / 249 W. FTP w Zwift musi by\u0107 300.\n2. seria wpisana w watach: ON 346 / OFF 244 W (= 1. seria \u22125 W).\nPrzerwa mi\u0119dzy seriami 10\u2032. ERG: Kickr; zapis Garmin (Assioma) + Vital Pro.\nPo serii zanotuj w komentarzu, co pu\u015bci\u0142o pierwsze: oddech, nogi czy g\u0142owa.\nKostka L: je\u015bli boli przy peda\u0142owaniu >3/10 \u2014 tylko Z2.\nPo dniu wolnym; D-5 przed etap\u00f3wk\u0105 (11 XI).\n\nWarmup\n- 25m 60% intensity=warmup\n\nMain Set 3x\n- 30s 110% intensity=interval\n- 1m 55% intensity=recovery\n\nMain Set 1x\n- 5m 55% intensity=recovery\n\nMain Set 1x\n- 3m 117% intensity=interval\n- 1m40s 83% intensity=recovery\n- 1m45s 117% intensity=interval\n- 1m20s 83% intensity=recovery\n- 1m 117% intensity=interval\n- 40s 83% intensity=recovery\n- 45s 117% intensity=interval\n- 30s 83% intensity=recovery\n\nMain Set 5x\n- 30s 117% intensity=interval\n- 20s 83% intensity=recovery\n\nMain Set 1x\n- 10m 50% intensity=recovery\n\nMain Set 1x\n- 3m 346w intensity=interval\n- 1m40s 244w intensity=recovery\n- 1m45s 346w intensity=interval\n- 1m20s 244w intensity=recovery\n- 1m 346w intensity=interval\n- 40s 244w intensity=recovery\n- 45s 346w intensity=interval\n- 30s 244w intensity=recovery\n\nMain Set 5x\n- 30s 346w intensity=interval\n- 20s 244w intensity=recovery\n\nCooldown\n- 20m 55% intensity=cooldown"
+      "description": "Zamiast Z2 + sprint\u00f3w (decyzja Mirka, 2 XI). HIDIT \u2014 wariant Mirka. ON 117% / OFF 83% FTP 300 = 351 / 249 W. FTP w Zwift musi by\u0107 300.\n2. seria wpisana w watach: ON 346 / OFF 244 W (= 1. seria \u22125 W).\nPrzerwa mi\u0119dzy seriami 10\u2032. ERG: Kickr; zapis Garmin (Assioma) + Vital Pro.\nPo serii zanotuj w komentarzu, co pu\u015bci\u0142o pierwsze: oddech, nogi czy g\u0142owa.\nKostka L: je\u015bli boli przy peda\u0142owaniu >3/10 \u2014 tylko Z2.\nPo dniu wolnym; D-5 przed etap\u00f3wk\u0105 (11 XI).\n\nWarmup\n- 5m ramp 30-60% intensity=warmup\n- 20m 60% intensity=warmup\n\nMain Set 3x\n- 30s 110% intensity=interval\n- 1m 55% intensity=recovery\n\nMain Set 1x\n- 5m 55% intensity=recovery\n\nMain Set 1x\n- 3m 117% intensity=interval\n- 1m40s 83% intensity=recovery\n- 1m45s 117% intensity=interval\n- 1m20s 83% intensity=recovery\n- 1m 117% intensity=interval\n- 40s 83% intensity=recovery\n- 45s 117% intensity=interval\n- 30s 83% intensity=recovery\n\nMain Set 5x\n- 30s 117% intensity=interval\n- 20s 83% intensity=recovery\n\nMain Set 1x\n- 10m 50% intensity=recovery\n\nMain Set 1x\n- 3m 346w intensity=interval\n- 1m40s 244w intensity=recovery\n- 1m45s 346w intensity=interval\n- 1m20s 244w intensity=recovery\n- 1m 346w intensity=interval\n- 40s 244w intensity=recovery\n- 45s 346w intensity=interval\n- 30s 244w intensity=recovery\n\nMain Set 5x\n- 30s 346w intensity=interval\n- 20s 244w intensity=recovery\n\nCooldown\n- 15m 55% intensity=cooldown\n- 5m ramp 55-28% intensity=cooldown"
     },
     {
       "id": 149358298,
@@ -4120,12 +4120,12 @@
       "name": "D\u0142ugie Z2",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 123,
+      "planned_tss": 121,
       "duration_hours": 2.75,
       "duration_formatted": "2h45m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "Szosa (je\u015bli pogoda), 2:30\u20133:00 h, ~186\u2013216 W (62\u201372% FTP 300), bez akcent\u00f3w. Kadencja 90\u201395 (Kafka). Jedzenie od pocz\u0105tku: brak paliwa obni\u017ca kadencj\u0119.\n\nMain Set 1x\n- 165m 62-72% intensity=interval"
+      "description": "Szosa (je\u015bli pogoda), 2:30\u20133:00 h, ~186\u2013216 W (62\u201372% FTP 300), bez akcent\u00f3w. Kadencja 90\u201395 (Kafka). Jedzenie od pocz\u0105tku: brak paliwa obni\u017ca kadencj\u0119.\n\nWarmup\n- 5m ramp 31-62% intensity=warmup\n\nMain Set 1x\n- 155m 62-72% intensity=interval\n\nCooldown\n- 5m ramp 62-31% intensity=cooldown"
     },
     {
       "id": 149358295,
@@ -4133,12 +4133,12 @@
       "name": "Z2",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 65,
+      "planned_tss": 63,
       "duration_hours": 1.5,
       "duration_formatted": "1h30m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "Z2 bez akcent\u00f3w, ~186\u2013210 W (62\u201370% FTP 300), HR <128. Kadencja 90\u201395 (Kafka).\n\nMain Set 1x\n- 90m 62-70% intensity=interval"
+      "description": "Z2 bez akcent\u00f3w, ~186\u2013210 W (62\u201370% FTP 300), HR <128. Kadencja 90\u201395 (Kafka). Po d\u0142ugiej sobocie przy ci\u0119\u017ckich nogach: 60\u201375\u2032 albo Z1.\n\nWarmup\n- 5m ramp 31-62% intensity=warmup\n\nMain Set 1x\n- 80m 62-70% intensity=interval\n\nCooldown\n- 5m ramp 62-31% intensity=cooldown"
     },
     {
       "id": 150484234,
@@ -4159,12 +4159,12 @@
       "name": "Z1 + opener",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 29,
+      "planned_tss": 28,
       "duration_hours": 0.69,
       "duration_formatted": "41m30s",
-      "workout_summary": "15m [target not shown] | 3\u00d7(1m [target not shown] + 3m [target not shown]) | 2\u00d7(15s [target not shown] + 2m [target not shown]) | 10m [target not shown]",
+      "workout_summary": "5m [target not shown] | 10m [target not shown] | 3\u00d7(1m [target not shown] + 3m [target not shown]) | 2\u00d7(15s [target not shown] + 2m [target not shown]) | 5m [target not shown] | 5m [target not shown]",
       "has_terrain": false,
-      "description": "D-1 przed 1. etapem. Opener pod wy\u015bcig 30\u201360 min: kr\u00f3tkie odcinki powy\u017cej progu, bez zm\u0119czenia. Kr\u00f3tko z za\u0142o\u017cenia (wyj\u0105tek od zasady 1:30). Wieczorem \u0142adowanie w\u0119glowodanami wg d\u0142ugo\u015bci etapu.\n\nWarmup\n- 15m 55% intensity=warmup\n\nMain Set 3x\n- 1m 110% intensity=interval\n- 3m 50% intensity=recovery\n\nMain Set 2x\n- 15s 150% intensity=interval\n- 2m 50% intensity=recovery\n\nCooldown\n- 10m 50% intensity=cooldown"
+      "description": "D-1 przed 1. etapem. Opener pod wy\u015bcig 30\u201360 min: kr\u00f3tkie odcinki powy\u017cej progu, bez zm\u0119czenia. Kr\u00f3tko z za\u0142o\u017cenia (wyj\u0105tek od zasady 1:30). Wieczorem \u0142adowanie w\u0119glowodanami wg d\u0142ugo\u015bci etapu.\n\nWarmup\n- 5m ramp 28-55% intensity=warmup\n- 10m 55% intensity=warmup\n\nMain Set 3x\n- 1m 110% intensity=interval\n- 3m 50% intensity=recovery\n\nMain Set 2x\n- 15s 150% intensity=interval\n- 2m 50% intensity=recovery\n\nCooldown\n- 5m 50% intensity=cooldown\n- 5m ramp 50-25% intensity=cooldown"
     },
     {
       "id": 148870060,
