@@ -71,7 +71,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-03T17:48:37.582124",
+    "last_updated": "2026-11-03T18:49:36.340199",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.139"
@@ -713,7 +713,7 @@
     "p_max": 991,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 63.0,
-    "calculation_timestamp": "2026-11-03T17:48:37.581420",
+    "calculation_timestamp": "2026-11-03T18:49:36.338900",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -4200,7 +4200,7 @@
       "duration_formatted": "2h45m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "Szosa (je\u015bli pogoda), 2:30\u20133:00 h, ~186\u2013216 W (62\u201372% FTP 300), bez akcent\u00f3w. Kadencja 90\u201395 (Kafka). Jedzenie od pocz\u0105tku: brak paliwa obni\u017ca kadencj\u0119.\n\nWarmup\n- 5m ramp 31-62% intensity=warmup\n\nMain Set 1x\n- 155m 62-72% intensity=interval\n\nCooldown\n- 5m ramp 62-31% intensity=cooldown"
+      "description": "Szosa (je\u015bli pogoda), 2:30\u20133:00 h, ~186\u2013216 W (62\u201372% FTP 300), HR <128 (VT1), bez akcent\u00f3w. Kadencja 90\u201395 (Kafka). Jedzenie od pocz\u0105tku: brak paliwa obni\u017ca kadencj\u0119.\n\nWarmup\n- 5m ramp 31-62% intensity=warmup\n\nMain Set 1x\n- 155m 62-72% intensity=interval\n\nCooldown\n- 5m ramp 62-31% intensity=cooldown"
     },
     {
       "id": 149358295,
@@ -4213,7 +4213,7 @@
       "duration_formatted": "1h30m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "Z2 bez akcent\u00f3w, ~186\u2013210 W (62\u201370% FTP 300), HR <128. Kadencja 90\u201395 (Kafka). Po d\u0142ugiej sobocie przy ci\u0119\u017ckich nogach: 60\u201375\u2032 albo Z1.\n\nWarmup\n- 5m ramp 31-62% intensity=warmup\n\nMain Set 1x\n- 80m 62-70% intensity=interval\n\nCooldown\n- 5m ramp 62-31% intensity=cooldown"
+      "description": "Z2 bez akcent\u00f3w, ~186\u2013210 W (62\u201370% FTP 300), HR <128 (VT1). Kadencja 90\u201395 (Kafka). Po d\u0142ugiej sobocie przy ci\u0119\u017ckich nogach: 60\u201375\u2032 albo Z1.\n\nWarmup\n- 5m ramp 31-62% intensity=warmup\n\nMain Set 1x\n- 80m 62-70% intensity=interval\n\nCooldown\n- 5m ramp 62-31% intensity=cooldown"
     },
     {
       "id": 150484234,
