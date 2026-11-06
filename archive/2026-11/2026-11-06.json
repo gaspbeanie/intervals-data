@@ -71,7 +71,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-06T20:45:31.010921",
+    "last_updated": "2026-11-06T21:40:01.201196",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.139"
@@ -698,7 +698,7 @@
     "p_max": 988,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 63.0,
-    "calculation_timestamp": "2026-11-06T20:45:31.009551",
+    "calculation_timestamp": "2026-11-06T21:40:01.200482",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -4053,7 +4053,7 @@
       "duration_formatted": "1h34m10s",
       "workout_summary": "5m [target not shown] | 20m [target not shown] | 3\u00d7(30s [target not shown] + 1m [target not shown]) | [repeat not summarized] | [repeat not summarized] | 5\u00d7(30s [target not shown] + 20s [target not shown]) | [repeat not summarized] | [repeat not summarized] | 5\u00d7(30s [target not shown] + 20s [target not shown]) | 15m [target not shown] | 5m [target not shown]",
       "has_terrain": false,
-      "description": "TEST FTP 300 W. HIDIT \u2014 wariant Mirka. ON 117% / OFF 83% FTP 300 = 351 / 249 W. FTP w Zwift musi by\u0107 300.\n2. seria wpisana w watach: ON 346 / OFF 244 W (= 1. seria \u22125 W).\nPrzerwa mi\u0119dzy seriami 10\u2032. ERG: Kickr; zapis Garmin (Assioma) + Vital Pro.\nPo serii zanotuj w komentarzu, co pu\u015bci\u0142o pierwsze: oddech, nogi czy g\u0142owa.\nKostka L: je\u015bli boli przy peda\u0142owaniu >3/10 \u2014 tylko Z2.\nPo dniu wolnym (jak 2 XI \u2014 por\u00f3wnywalne warunki); D-5 przed etap\u00f3wk\u0105 (11 XI).\n\nWarmup\n- 5m ramp 30-60% intensity=warmup\n- 20m 60% intensity=warmup\n\nMain Set 3x\n- 30s 110% intensity=interval\n- 1m 55% intensity=recovery\n\nMain Set 1x\n- 5m 55% intensity=recovery\n\nMain Set 1x\n- 3m 117% intensity=interval\n- 1m40s 83% intensity=recovery\n- 1m45s 117% intensity=interval\n- 1m20s 83% intensity=recovery\n- 1m 117% intensity=interval\n- 40s 83% intensity=recovery\n- 45s 117% intensity=interval\n- 30s 83% intensity=recovery\n\nMain Set 5x\n- 30s 117% intensity=interval\n- 20s 83% intensity=recovery\n\nMain Set 1x\n- 10m 50% intensity=recovery\n\nMain Set 1x\n- 3m 346w intensity=interval\n- 1m40s 244w intensity=recovery\n- 1m45s 346w intensity=interval\n- 1m20s 244w intensity=recovery\n- 1m 346w intensity=interval\n- 40s 244w intensity=recovery\n- 45s 346w intensity=interval\n- 30s 244w intensity=recovery\n\nMain Set 5x\n- 30s 346w intensity=interval\n- 20s 244w intensity=recovery\n\nCooldown\n- 15m 55% intensity=cooldown\n- 5m ramp 55-28% intensity=cooldown"
+      "description": "TEST FTP 300 W. HIDIT \u2014 wariant Mirka, BEZ ERG (Zwift Cog): biegi manetk\u0105, moc ze \u015bredniej odcinka. Pierwsza po\u0142owa ON na stoj\u0105co (maks. 1\u2032), potem na siedz\u0105co.\nCele: ON 351 / OFF 249 W (117/83% FTP 300); 2. seria ON 346 / OFF 244 W. Tolerancja \u015bredniej: \u00b15 W (ON \u22651\u2032), \u00b110 W (30\u201345\u2033); pierwsze 5 s ON \u2264 +10%.\nP\u0142aska trasa / sta\u0142y op\u00f3r. Przerwa mi\u0119dzy seriami 10\u2032. Zapis Garmin (Assioma) + Vital Pro.\nPo serii zanotuj, co pu\u015bci\u0142o pierwsze: oddech, nogi czy g\u0142owa.\nDzie\u0144 po nieudanym HIDIT 6 XI; D-4 przed etap\u00f3wk\u0105 (11 XI). Je\u015bli w rozgrzewce nadal \u017ale \u2014 tylko Z2.\n\nWarmup\n- 5m ramp 30-60% intensity=warmup\n- 20m 60% intensity=warmup\n\nMain Set 3x\n- 30s 110% intensity=interval\n- 1m 55% intensity=recovery\n\nMain Set 1x\n- 5m 55% intensity=recovery\n\nMain Set 1x\n- 3m 117% intensity=interval\n- 1m40s 83% intensity=recovery\n- 1m45s 117% intensity=interval\n- 1m20s 83% intensity=recovery\n- 1m 117% intensity=interval\n- 40s 83% intensity=recovery\n- 45s 117% intensity=interval\n- 30s 83% intensity=recovery\n\nMain Set 5x\n- 30s 117% intensity=interval\n- 20s 83% intensity=recovery\n\nMain Set 1x\n- 10m 50% intensity=recovery\n\nMain Set 1x\n- 3m 346w intensity=interval\n- 1m40s 244w intensity=recovery\n- 1m45s 346w intensity=interval\n- 1m20s 244w intensity=recovery\n- 1m 346w intensity=interval\n- 40s 244w intensity=recovery\n- 45s 346w intensity=interval\n- 30s 244w intensity=recovery\n\nMain Set 5x\n- 30s 346w intensity=interval\n- 20s 244w intensity=recovery\n\nCooldown\n- 15m 55% intensity=cooldown\n- 5m ramp 55-28% intensity=cooldown"
     },
     {
       "id": 149358298,

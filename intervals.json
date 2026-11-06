@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T20:45:30.602589",
+  "generated_at": "2026-11-06T21:40:00.290464",
   "schema_version": 1,
   "version": "3.139",
   "script_hash": "643c6e9c8b36",
@@ -1239,12 +1239,12 @@
         "source_icu_sync_date": "2026-11-04T17:34:44.944+00:00"
       },
       "streams": {
-        "attempts": 16,
+        "attempts": 17,
         "first_seen": "2026-11-04T18:24:35.316340",
-        "last_attempt": "2026-11-06T14:55:00.854534",
+        "last_attempt": "2026-11-06T21:40:00.290464",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-06T20:55:00.854534"
+        "next_retry_at": "2026-11-07T03:40:00.290464"
       }
     },
     "i206678916": {
@@ -1258,12 +1258,12 @@
         "source_icu_sync_date": "2026-11-06T20:29:28.103+00:00"
       },
       "streams": {
-        "attempts": 3,
+        "attempts": 4,
         "first_seen": "2026-11-06T18:50:21.656979",
-        "last_attempt": "2026-11-06T20:45:30.602589",
+        "last_attempt": "2026-11-06T21:40:00.290464",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-06T20:50:30.602589"
+        "next_retry_at": "2026-11-06T21:45:00.290464"
       }
     }
   }
