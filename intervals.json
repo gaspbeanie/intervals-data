@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T19:40:36.605028",
+  "generated_at": "2026-11-07T20:37:14.695118",
   "schema_version": 1,
   "version": "3.139",
   "script_hash": "643c6e9c8b36",
@@ -1063,7 +1063,7 @@
       "type": "VirtualRide",
       "name": "HIDIT (wariant Mirka)",
       "interval_summary": [
-        "6x 31s 357w",
+        "5x 31s 356w",
         "2x 3m 352w",
         "2x 1m45s 354w",
         "1x 60s 354w",
@@ -1089,7 +1089,7 @@
         },
         {
           "type": "WORK",
-          "label": "31s@357w80rpm",
+          "label": "31s@356w78rpm",
           "duration_secs": 33,
           "moving_secs": 33,
           "start_secs": 1714,
@@ -1264,7 +1264,7 @@
         },
         {
           "type": "WORK",
-          "label": "31s@357w80rpm",
+          "label": "31s@356w78rpm",
           "duration_secs": 30,
           "moving_secs": 30,
           "start_secs": 2744,
@@ -1299,7 +1299,7 @@
         },
         {
           "type": "WORK",
-          "label": "31s@357w80rpm",
+          "label": "31s@356w78rpm",
           "duration_secs": 30,
           "moving_secs": 30,
           "start_secs": 2794,
@@ -1334,7 +1334,7 @@
         },
         {
           "type": "WORK",
-          "label": "31s@357w80rpm",
+          "label": "31s@356w78rpm",
           "duration_secs": 30,
           "moving_secs": 30,
           "start_secs": 2844,
@@ -1352,59 +1352,24 @@
         },
         {
           "type": "RECOVERY",
-          "duration_secs": 20,
-          "moving_secs": 20,
+          "duration_secs": 70,
+          "moving_secs": 70,
           "start_secs": 2874,
-          "end_secs": 2894,
-          "avg_power": 262,
-          "max_power": 324,
-          "avg_hr": 164,
-          "max_hr": 165,
-          "min_hr": 164,
-          "avg_cadence": 94.3,
-          "zone": 3,
-          "w_bal_start": 1978,
-          "w_bal_end": 2736,
-          "training_load": 0.634692
-        },
-        {
-          "type": "WORK",
-          "label": "31s@357w80rpm",
-          "duration_secs": 30,
-          "moving_secs": 30,
-          "start_secs": 2894,
-          "end_secs": 2924,
-          "avg_power": 363,
+          "end_secs": 2944,
+          "avg_power": 304,
           "max_power": 445,
           "avg_hr": 164,
-          "max_hr": 166,
-          "min_hr": 163,
-          "avg_cadence": 86.666664,
-          "zone": 5,
-          "w_bal_start": 2694,
-          "w_bal_end": 978,
-          "training_load": 0.952038
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 20,
-          "moving_secs": 20,
-          "start_secs": 2924,
-          "end_secs": 2944,
-          "avg_power": 257,
-          "max_power": 321,
-          "avg_hr": 165,
           "max_hr": 167,
           "min_hr": 162,
-          "avg_cadence": 94.05,
-          "zone": 3,
-          "w_bal_start": 962,
+          "avg_cadence": 90.957146,
+          "zone": 4,
+          "w_bal_start": 1978,
           "w_bal_end": 1867,
-          "training_load": 0.61921227
+          "training_load": 2.2078145
         },
         {
           "type": "WORK",
-          "label": "31s@357w80rpm",
+          "label": "31s@356w78rpm",
           "duration_secs": 30,
           "moving_secs": 30,
           "start_secs": 2944,
@@ -1723,20 +1688,20 @@
       "date": "2026-11-07",
       "paired_planned": true,
       "intervals": {
-        "attempts": 2,
+        "attempts": 3,
         "first_seen": "2026-11-07T16:12:13.263042",
-        "last_attempt": "2026-11-07T17:11:44.682039",
+        "last_attempt": "2026-11-07T20:37:14.695118",
         "status": "ok",
         "reason": "ok",
-        "source_icu_sync_date": "2026-11-07T16:54:04.784+00:00"
+        "source_icu_sync_date": "2026-11-07T19:51:30.760+00:00"
       },
       "streams": {
-        "attempts": 5,
+        "attempts": 6,
         "first_seen": "2026-11-07T16:12:13.263042",
-        "last_attempt": "2026-11-07T19:40:36.605028",
+        "last_attempt": "2026-11-07T20:37:14.695118",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-07T19:45:36.605028"
+        "next_retry_at": "2026-11-07T20:42:14.695118"
       }
     }
   }
