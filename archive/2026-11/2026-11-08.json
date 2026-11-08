@@ -71,7 +71,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-08T07:58:45.512254",
+    "last_updated": "2026-11-08T08:49:53.046682",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.139"
@@ -664,7 +664,7 @@
           "current_week_hard_days_completed": 4,
           "current_week_hard_days_total": 4,
           "race_proximity": 3,
-          "next_week_load": 0.16,
+          "next_week_load": 2.61,
           "plan_coverage_current_week": 0.25,
           "plan_coverage_next_week": 1.5
         },
@@ -699,7 +699,7 @@
     "p_max": 986,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-08T07:58:45.510932",
+    "calculation_timestamp": "2026-11-08T08:49:53.045755",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -3316,67 +3316,67 @@
     {
       "id": 148870060,
       "date": "2026-11-11",
-      "name": "race zwift",
+      "name": "Tour de ZTPL \u2013 Etap 1: Oh Hill No (7,9 km / 306 m)",
       "type": "RACE_C",
       "sport_type": "Ride",
-      "planned_tss": null,
+      "planned_tss": 55,
       "duration_hours": 0.0,
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": ""
+      "description": "TEST FTP (decyzja Mirka). Szacowany czas ok. 20\u201323\u2032 [d]. Praktycznie jazda na czas pod g\u00f3r\u0119: start \u2264330 W przez pierwsze 3\u20135\u2032, potem r\u00f3wno do ko\u0144ca. Model (CP 305, W\u2032 19,6 kJ): ok. 320 W na 20\u2032 [d].\nBikarbonat 90\u2032 przed (300 mg/kg = ok. 22,5 g lub 15 g). Kofeina 200 mg 60\u2032 przed. Bez flaska (bidon).\nRozgrzewka 20\u2032 z 2\u20133 kr\u00f3tkimi akcentami."
     },
     {
       "id": 148870071,
       "date": "2026-11-12",
-      "name": "race zwift",
+      "name": "Tour de ZTPL \u2013 Etap 2: Stay Puft Pursuit (31,2 km / 416 m)",
       "type": "RACE_C",
       "sport_type": "Ride",
-      "planned_tss": null,
+      "planned_tss": 85,
       "duration_hours": 0.0,
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": ""
+      "description": "Szacowany czas ok. 50\u201355\u2032 [d]. HR \u2264170 w pierwszych 20\u2032. Jazda w grupie, oszcz\u0119dzanie na p\u0142askim.\nPaliwo: ok. 60 g CHO/h (\u00bd flaska lub \u017cele) od 10. minuty. Kofeina 200 mg 60\u2032 przed."
     },
     {
       "id": 148870077,
       "date": "2026-11-13",
-      "name": "race zwift",
+      "name": "Tour de ZTPL \u2013 Etap 3: Mayan Mash (34,6 km / 756 m)",
       "type": "RACE_C",
       "sport_type": "Ride",
-      "planned_tss": null,
+      "planned_tss": 100,
       "duration_hours": 0.0,
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": ""
+      "description": "Szacowany czas ok. 60\u201365\u2032 [d]. HR \u2264170 w pierwszych 20\u2032. G\u00f3rzysty.\nPaliwo: 80\u201390 g CHO/h od pocz\u0105tku, jedzenie na zjazdach. Kofeina 200 mg 60\u2032 przed. Bez bikarbonatu (zaplanowany na etap 1 i 4)."
     },
     {
       "id": 148870085,
       "date": "2026-11-14",
-      "name": "race zwift",
+      "name": "Tour de ZTPL \u2013 Etap 4: Surrey Hills (39,2 km / 837 m)",
       "type": "RACE_C",
       "sport_type": "Ride",
-      "planned_tss": null,
+      "planned_tss": 115,
       "duration_hours": 0.0,
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": ""
+      "description": "Szacowany czas ok. 70\u201375\u2032 [d] \u2014 najd\u0142u\u017cszy i najtrudniejszy etap. HR \u2264170 w pierwszych 20\u2032.\nBikarbonat 90\u2032 przed (300 mg/kg = ok. 22,5 g lub 15 g). Kofeina 200 mg 60\u2032 przed.\nPaliwo: 90 g CHO/h od pocz\u0105tku (ok. 1 flask na etap), jedzenie na zjazdach. Flask bez dodatku bikarbonatu (kwasek cytrynowy!)."
     },
     {
       "id": 148870131,
       "date": "2026-11-15",
-      "name": "race zwift",
+      "name": "Tour de ZTPL \u2013 Etap 5: Montmartre Mixer (25,1 km / 190 m)",
       "type": "RACE_C",
       "sport_type": "Ride",
-      "planned_tss": null,
+      "planned_tss": 70,
       "duration_hours": 0.0,
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": ""
+      "description": "Szacowany czas ok. 38\u201342\u2032 [d]. Szybki, kr\u00f3tki etap po 4 dniach \u2014 zm\u0119czenie skumulowane. HR \u2264170 w pierwszych 10\u2032.\nPaliwo: 40\u201360 g CHO/h. Kofeina 200 mg 60\u2032 przed."
     },
     {
       "id": 153113638,
@@ -3555,7 +3555,7 @@
     "success": 3,
     "patternA": 3,
     "patternB": 0,
-    "bail_no_workout_doc": 2,
+    "bail_no_workout_doc": 7,
     "bail_no_match": 4
   },
   "weekly_summary": {
@@ -3568,7 +3568,7 @@
   },
   "race_calendar": {
     "next_race": {
-      "name": "race zwift",
+      "name": "Tour de ZTPL \u2013 Etap 1: Oh Hill No (7,9 km / 306 m)",
       "date": "2026-11-11",
       "category": "RACE_C",
       "type": "Ride",
@@ -3582,7 +3582,7 @@
     },
     "all_races": [
       {
-        "name": "race zwift",
+        "name": "Tour de ZTPL \u2013 Etap 1: Oh Hill No (7,9 km / 306 m)",
         "date": "2026-11-11",
         "category": "RACE_C",
         "type": "Ride",
@@ -3595,7 +3595,7 @@
         "has_terrain": false
       },
       {
-        "name": "race zwift",
+        "name": "Tour de ZTPL \u2013 Etap 2: Stay Puft Pursuit (31,2 km / 416 m)",
         "date": "2026-11-12",
         "category": "RACE_C",
         "type": "Ride",
@@ -3608,7 +3608,7 @@
         "has_terrain": false
       },
       {
-        "name": "race zwift",
+        "name": "Tour de ZTPL \u2013 Etap 3: Mayan Mash (34,6 km / 756 m)",
         "date": "2026-11-13",
         "category": "RACE_C",
         "type": "Ride",
@@ -3621,7 +3621,7 @@
         "has_terrain": false
       },
       {
-        "name": "race zwift",
+        "name": "Tour de ZTPL \u2013 Etap 4: Surrey Hills (39,2 km / 837 m)",
         "date": "2026-11-14",
         "category": "RACE_C",
         "type": "Ride",
@@ -3634,7 +3634,7 @@
         "has_terrain": false
       },
       {
-        "name": "race zwift",
+        "name": "Tour de ZTPL \u2013 Etap 5: Montmartre Mixer (25,1 km / 190 m)",
         "date": "2026-11-15",
         "category": "RACE_C",
         "type": "Ride",
