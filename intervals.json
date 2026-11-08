@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T14:38:53.749942",
+  "generated_at": "2026-11-08T15:35:35.058773",
   "schema_version": 1,
   "version": "3.139",
   "script_hash": "643c6e9c8b36",
@@ -1355,6 +1355,34 @@
         }
       ],
       "zone_basis": "power"
+    },
+    {
+      "activity_id": "i207428893",
+      "date": "2026-11-08",
+      "start_datetime": "2026-11-08T13:09:25",
+      "type": "VirtualRide",
+      "name": "D\u0142ugie Z2 (2:30, dolna Z2)",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 9087,
+          "moving_secs": 9087,
+          "start_secs": 0,
+          "end_secs": 9087,
+          "avg_power": 189,
+          "max_power": 309,
+          "avg_hr": 119,
+          "max_hr": 135,
+          "min_hr": 63,
+          "avg_cadence": 89.3779,
+          "zone": 2,
+          "w_bal_start": 19600,
+          "w_bal_end": 19599,
+          "training_load": 100.282776
+        }
+      ],
+      "zone_basis": "power"
     }
   ],
   "fetch_state": {
@@ -1539,12 +1567,12 @@
         "source_icu_sync_date": "2026-11-06T20:29:28.103+00:00"
       },
       "streams": {
-        "attempts": 17,
+        "attempts": 18,
         "first_seen": "2026-11-06T18:50:21.656979",
-        "last_attempt": "2026-11-08T08:49:52.587919",
+        "last_attempt": "2026-11-08T15:35:35.058773",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-08T14:49:52.587919"
+        "next_retry_at": "2026-11-08T21:35:35.058773"
       }
     },
     "i207045155": {
@@ -1565,6 +1593,26 @@
         "status": "pending",
         "reason": "no_data",
         "next_retry_at": "2026-11-08T15:45:13.483376"
+      }
+    },
+    "i207428893": {
+      "date": "2026-11-08",
+      "paired_planned": true,
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-11-08T15:35:35.058773",
+        "last_attempt": "2026-11-08T15:35:35.058773",
+        "status": "ok",
+        "reason": "ok",
+        "source_icu_sync_date": "2026-11-08T14:41:31.303+00:00"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-11-08T15:35:35.058773",
+        "last_attempt": "2026-11-08T15:35:35.058773",
+        "status": "pending",
+        "reason": "no_data",
+        "next_retry_at": "2026-11-08T15:40:35.058773"
       }
     }
   }
