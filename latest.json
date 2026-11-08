@@ -71,7 +71,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-08T06:55:04.057605",
+    "last_updated": "2026-11-08T07:58:45.512254",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.139"
@@ -120,9 +120,9 @@
     "signals": {
       "hrv": {
         "status": "green",
-        "value": 63.0,
-        "baseline_7d": 59.1,
-        "delta_pct": 6.6
+        "value": 58.0,
+        "baseline_7d": 58.4,
+        "delta_pct": -0.7
       },
       "rhr": {
         "status": "green",
@@ -132,7 +132,7 @@
       },
       "sleep": {
         "status": "green",
-        "hours": 8.4,
+        "hours": 10.02,
         "quality": 2
       },
       "acwr": {
@@ -144,8 +144,8 @@
       },
       "ri": {
         "status": "green",
-        "value": 1.05,
-        "value_yesterday": 1.09
+        "value": 0.98,
+        "value_yesterday": 1.1
       },
       "tsb": {
         "status": "green",
@@ -266,11 +266,11 @@
         }
       },
       "resting_hr": 39,
-      "hrv": 63.0,
+      "hrv": 58.0,
       "sleep_quality": 2,
-      "sleep_hours": 8.4,
-      "sleep_formatted": "8h24m",
-      "sleep_score": 80.0,
+      "sleep_hours": 10.02,
+      "sleep_formatted": "10h1m",
+      "sleep_score": 85.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -287,7 +287,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 8,
+      "steps": 92,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -315,13 +315,13 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": 1.05,
-    "recovery_index_yesterday": 1.09,
-    "hrv_baseline_7d": 59.1,
+    "recovery_index": 0.98,
+    "recovery_index_yesterday": 1.1,
+    "hrv_baseline_7d": 58.4,
     "rhr_baseline_7d": 38.3,
-    "hrv_baseline_28d": 55.3,
+    "hrv_baseline_28d": 55.1,
     "rhr_baseline_28d": 38.3,
-    "latest_hrv": 63.0,
+    "latest_hrv": 58.0,
     "latest_rhr": 39,
     "acwr": 1.34,
     "acwr_interpretation": "caution",
@@ -345,7 +345,7 @@
     "multi_sport_detected": false,
     "strain": 558.0,
     "stress_tolerance": 4.0,
-    "load_recovery_ratio": 3.8,
+    "load_recovery_ratio": 4.0,
     "tss_7d_total": 396.0,
     "tss_28d_total": 1186.0,
     "zone_distribution_7d": {
@@ -699,7 +699,7 @@
     "p_max": 986,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-08T06:55:04.056562",
+    "calculation_timestamp": "2026-11-08T07:58:45.510932",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -3237,12 +3237,12 @@
         "weight": null
       },
       "resting_hr": 39,
-      "hrv_rmssd": 63.0,
+      "hrv_rmssd": 58.0,
       "hrv_sdnn": null,
-      "sleep_hours": 8.4,
-      "sleep_formatted": "8h24m",
+      "sleep_hours": 10.02,
+      "sleep_formatted": "10h1m",
       "sleep_quality": 2,
-      "sleep_score": 80.0,
+      "sleep_score": 85.0,
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
@@ -3262,7 +3262,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 8,
+      "steps": 92,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -3379,6 +3379,84 @@
       "description": ""
     },
     {
+      "id": 153113638,
+      "date": "2026-11-16",
+      "name": "Wolne",
+      "type": "NOTE",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "Dzie\u0144 wolny po etap\u00f3wce (zasada: pn wolne po sobotnim wy\u015bcigu / niedzieli bieg+si\u0142ownia)."
+    },
+    {
+      "id": 153113640,
+      "date": "2026-11-17",
+      "name": "HIDIT (wariant Mirka) bez ERG",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 106,
+      "duration_hours": 1.57,
+      "duration_formatted": "1h34m10s",
+      "workout_summary": "5m [target not shown] | 20m [target not shown] | 3\u00d7(30s [target not shown] + 1m [target not shown]) | [repeat not summarized] | [repeat not summarized] | 5\u00d7(30s [target not shown] + 20s [target not shown]) | [repeat not summarized] | [repeat not summarized] | 5\u00d7(30s [target not shown] + 20s [target not shown]) | 15m [target not shown] | 5m [target not shown]",
+      "has_terrain": false
+    },
+    {
+      "id": 153113641,
+      "date": "2026-11-18",
+      "name": "Bieg 25\u2032",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 16,
+      "duration_hours": 0.42,
+      "duration_formatted": "25m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "16:00",
+      "description_preview": "Spokojnie 25\u2032, HR ~130. Kostka L: przy b\u00f3lu >3/10 przerwij.\nMain Set 1x\n- 25m Z1 HR intensity=warmup"
+    },
+    {
+      "id": 153113642,
+      "date": "2026-11-18",
+      "name": "Si\u0142ownia (powr\u00f3t po przerwie)",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": null,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "16:45",
+      "description_preview": "Pierwsza sesja po 2 tyg. przerwy: ci\u0119\u017cko, ma\u0142o powt\u00f3rze\u0144, ale RPE 6\u20137 (nie 7\u20138). Kostka L: bez wspi\u0119\u0107, skok\u00f3w i wykrok\u00f3w, je\u015bli boli. 3 dni przed wy\u015bcigiem."
+    },
+    {
+      "id": 153113644,
+      "date": "2026-11-19",
+      "name": "G\u00f3rna Z2 + 2\u00d710\u2032 niska kadencja",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 94,
+      "duration_hours": 2.0,
+      "duration_formatted": "2h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "G\u00f3rna Z2: ~205\u2013220 W (67\u201372% FTP 305). Limity decyduj\u0105: HR <128, VE <87 \u2014 przy dryfie obni\u017c moc. Dwa bloki 10\u2032 przy 65\u201370 rpm (ta sama moc). Kadencja poza blokami 90\u201395. Jedzenie od pocz\u0105tku.\nWarmup\n- 5m ramp 34-67% intensity=warmup"
+    },
+    {
+      "id": 153113645,
+      "date": "2026-11-20",
+      "name": "Z1 + opener",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 28,
+      "duration_hours": 0.69,
+      "duration_formatted": "41m30s",
+      "workout_summary": "5m [target not shown] | 10m [target not shown] | 3\u00d7(1m [target not shown] + 3m [target not shown]) | 2\u00d7(15s [target not shown] + 2m [target not shown]) | 5m [target not shown] | 5m [target not shown]",
+      "has_terrain": false
+    },
+    {
       "id": 148870340,
       "date": "2026-11-21",
       "name": "race zwift",
@@ -3390,6 +3468,34 @@
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": null
+    },
+    {
+      "id": 153113646,
+      "date": "2026-11-22",
+      "name": "Bieg 25\u2032",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 16,
+      "duration_hours": 0.42,
+      "duration_formatted": "25m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "10:00",
+      "description_preview": "Spokojnie 25\u2032, HR ~130.\nMain Set 1x\n- 25m Z1 HR intensity=warmup"
+    },
+    {
+      "id": 153113648,
+      "date": "2026-11-22",
+      "name": "Si\u0142ownia",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": null,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "10:45",
+      "description_preview": "Ci\u0119\u017cko, ma\u0142o powt\u00f3rze\u0144, RPE 7\u20138, bez upadku. Dzie\u0144 po wy\u015bcigu; jutro wolne."
     },
     {
       "id": 148870371,
@@ -3445,19 +3551,19 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 2,
-    "success": 1,
-    "patternA": 1,
+    "attempted": 7,
+    "success": 3,
+    "patternA": 3,
     "patternB": 0,
-    "bail_no_workout_doc": 0,
-    "bail_no_match": 1
+    "bail_no_workout_doc": 2,
+    "bail_no_match": 4
   },
   "weekly_summary": {
     "total_training_hours": 7.18,
     "total_training_formatted": "7h11m",
     "total_tss": 396,
     "activities_count": 5,
-    "avg_hrv": 59.1,
+    "avg_hrv": 58.4,
     "avg_resting_hr": 38.3
   },
   "race_calendar": {
