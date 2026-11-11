@@ -71,7 +71,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-11T11:27:33.336885",
+    "last_updated": "2026-11-11T12:29:23.927396",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.139"
@@ -256,7 +256,7 @@
       }
     },
     "current_metrics": {
-      "weight_kg": 75.73,
+      "weight_kg": 75.7,
       "display": {
         "weight": {
           "value": 75.7,
@@ -285,7 +285,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 89,
+      "steps": 846,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -297,16 +297,21 @@
     },
     "weight": {
       "weight_latest_kg": 75.7,
-      "weight_latest_date": "2026-11-09",
+      "weight_latest_date": "2026-11-11",
       "wkg_current": 4.03,
       "wkg_ftp_source": "tested",
       "ftp_setting_date": "2026-11-07",
       "wkg_block_start": 4.08,
       "wkg_block_end": 4.03,
       "wkg_block_delta": -0.05,
+      "weight_7d_avg_kg": 75.5,
       "display": {
         "weight_latest": {
           "value": 75.7,
+          "unit": "kg"
+        },
+        "weight_7d_avg": {
+          "value": 75.5,
           "unit": "kg"
         }
       }
@@ -694,7 +699,7 @@
     "p_max": 983,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-11T11:27:33.335561",
+    "calculation_timestamp": "2026-11-11T12:29:23.926226",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -3107,9 +3112,12 @@
     },
     {
       "date": "2026-11-11",
-      "weight_kg": null,
+      "weight_kg": 75.7,
       "display": {
-        "weight": null
+        "weight": {
+          "value": 75.7,
+          "unit": "kg"
+        }
       },
       "resting_hr": 38,
       "hrv_rmssd": 58.0,
@@ -3137,7 +3145,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 89,
+      "steps": 846,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
