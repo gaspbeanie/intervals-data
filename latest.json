@@ -71,7 +71,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-16T07:10:59.461435",
+    "last_updated": "2026-11-16T17:21:53.799518",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.139"
@@ -287,7 +287,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 556,
+      "steps": 3683,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -658,13 +658,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.5,
-          "hard_sessions_planned": 3,
+          "planned_tss_delta": 0.77,
+          "hard_sessions_planned": 4,
           "current_week_hard_days_completed": 0,
-          "current_week_hard_days_total": 3,
+          "current_week_hard_days_total": 4,
           "race_proximity": 5,
           "next_week_load": null,
-          "plan_coverage_current_week": 1.33,
+          "plan_coverage_current_week": 1.67,
           "plan_coverage_next_week": 0.17
         },
         "data_quality": "good",
@@ -700,7 +700,7 @@
     "p_max": 982,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-16T07:10:59.460719",
+    "calculation_timestamp": "2026-11-16T17:21:53.798860",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -3088,7 +3088,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 556,
+      "steps": 3683,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -3116,15 +3116,15 @@
     {
       "id": 153113640,
       "date": "2026-11-17",
-      "name": "HIDIT (wariant Mirka) bez ERG",
+      "name": "HIDIT mod",
       "type": "WORKOUT",
       "sport_type": "Ride",
       "planned_tss": 106,
       "duration_hours": 1.57,
       "duration_formatted": "1h34m10s",
-      "workout_summary": "5m [target not shown] | 20m [target not shown] | 3\u00d7(30s [target not shown] + 1m [target not shown]) | [repeat not summarized] | [repeat not summarized] | 5\u00d7(30s [target not shown] + 20s [target not shown]) | [repeat not summarized] | [repeat not summarized] | 5\u00d7(30s [target not shown] + 20s [target not shown]) | 15m [target not shown] | 5m [target not shown]",
+      "workout_summary": "5m [target not shown] | 20m [target not shown] | 3\u00d7(30s [target not shown] + 1m [target not shown]) | [repeat not summarized] | [repeat not summarized] | 5\u00d7(30s [target not shown] + 20s [target not shown]) | [repeat not summarized] | [repeat not summarized] | 5\u00d7(30s [target not shown] + 20s [target not shown]) | 13m [target not shown] | 5m [target not shown]",
       "has_terrain": false,
-      "description": "HIDIT po dniu wolnym. BEZ ERG (Zwift Cog): biegi manetk\u0105, moc ze \u015bredniej odcinka; 1. po\u0142owa ON na stoj\u0105co (maks. 1\u2032).\nFTP 307: seria 1 ON 359 / OFF 255 W; seria 2 ON 354 / OFF 250 W. Tolerancja: \u00b15 W (ON \u22651\u2032), \u00b110 W (30\u201345\u2033); pierwsze 5 s ON \u2264 +10% (ok. 395 W); OFF 250\u2013260 W.\nPrzerwa mi\u0119dzy seriami 10\u2032. Zwift FTP = 307. Po serii: co pu\u015bci\u0142o pierwsze (oddech/nogi/g\u0142owa).\n\nWarmup\n- 5m ramp 30-60% intensity=warmup\n- 20m 60% intensity=warmup\n\nMain Set 3x\n- 30s 110% intensity=interval\n- 1m 55% intensity=recovery\n\nMain Set 1x\n- 5m 55% intensity=recovery\n\nMain Set 1x\n- 3m 359w intensity=interval\n- 1m40s 255w intensity=recovery\n- 1m45s 359w intensity=interval\n- 1m20s 255w intensity=recovery\n- 1m 359w intensity=interval\n- 40s 255w intensity=recovery\n- 45s 359w intensity=interval\n- 30s 255w intensity=recovery\n\nMain Set 5x\n- 30s 359w intensity=interval\n- 20s 255w intensity=recovery\n\nMain Set 1x\n- 10m 50% intensity=recovery\n\nMain Set 1x\n- 3m 354w intensity=interval\n- 1m40s 250w intensity=recovery\n- 1m45s 354w intensity=interval\n- 1m20s 250w intensity=recovery\n- 1m 354w intensity=interval\n- 40s 250w intensity=recovery\n- 45s 354w intensity=interval\n- 30s 250w intensity=recovery\n\nMain Set 5x\n- 30s 354w intensity=interval\n- 20s 250w intensity=recovery\n\nCooldown\n- 15m 55% intensity=cooldown\n- 5m ramp 55-28% intensity=cooldown"
+      "description": "HIDIT mod (1. z 2 w tygodniu), po dniu wolnym. BEZ ERG (Zwift Cog): biegi manetk\u0105, moc ze \u015bredniej odcinka; 1. po\u0142owa ON na stoj\u0105co (maks. 1\u2032).\nFTP 307: seria 1 ON 359 / OFF 255 W; seria 2 ON 354 / OFF 250 W. Tolerancja: \u00b15 W (ON \u22651\u2032), \u00b110 W (30\u201345\u2033); pierwsze 5 s ON \u2264 +10% (ok. 395 W); OFF 250\u2013260 W.\nPrzerwa mi\u0119dzy seriami 12\u2032. Zwift FTP = 307. Po serii: co pu\u015bci\u0142o pierwsze (oddech/nogi/g\u0142owa).\n\nWarmup\n- 5m ramp 30-60% intensity=warmup\n- 20m 60% intensity=warmup\n\nMain Set 3x\n- 30s 110% intensity=interval\n- 1m 55% intensity=recovery\n\nMain Set 1x\n- 5m 55% intensity=recovery\n\nMain Set 1x\n- 3m 359w intensity=interval\n- 1m40s 255w intensity=recovery\n- 1m45s 359w intensity=interval\n- 1m20s 255w intensity=recovery\n- 1m 359w intensity=interval\n- 40s 255w intensity=recovery\n- 45s 359w intensity=interval\n- 30s 255w intensity=recovery\n\nMain Set 5x\n- 30s 359w intensity=interval\n- 20s 255w intensity=recovery\n\nMain Set 1x\n- 12m 50% intensity=recovery\n\nMain Set 1x\n- 3m 354w intensity=interval\n- 1m40s 250w intensity=recovery\n- 1m45s 354w intensity=interval\n- 1m20s 250w intensity=recovery\n- 1m 354w intensity=interval\n- 40s 250w intensity=recovery\n- 45s 354w intensity=interval\n- 30s 250w intensity=recovery\n\nMain Set 5x\n- 30s 354w intensity=interval\n- 20s 250w intensity=recovery\n\nCooldown\n- 13m 55% intensity=cooldown\n- 5m ramp 55-28% intensity=cooldown"
     },
     {
       "id": 153113641,
@@ -3155,30 +3155,44 @@
       "description": "Pierwsza sesja po 2 tyg. przerwy: ci\u0119\u017cko, ma\u0142o powt\u00f3rze\u0144, ale RPE 6\u20137 (nie 7\u20138). Kostka L: bez wspi\u0119\u0107, skok\u00f3w i wykrok\u00f3w, je\u015bli boli. 3 dni przed wy\u015bcigiem."
     },
     {
-      "id": 153113644,
-      "date": "2026-11-19",
-      "name": "G\u00f3rna Z2 + 2\u00d710\u2032 niska kadencja",
+      "id": 156704818,
+      "date": "2026-11-18",
+      "name": "Z2 1 h (po biegu i si\u0142owni)",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 94,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
+      "planned_tss": 38,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "G\u00f3rna Z2: 205\u2013220 W (67\u201372% FTP 305). Granic\u0119 wyznacza VE <87 (VT1) \u2014 przy VE \u226587 obni\u017c moc. HR tylko informacyjnie (dryf HR przy sta\u0142ej VE nie zmienia strefy). Dwa bloki 10\u2032 przy 65\u201370 rpm (ta sama moc). Kadencja poza blokami 90\u201395. Jedzenie od pocz\u0105tku.\n\nWarmup\n- 5m ramp 34-67% intensity=warmup\n\nMain Set 1x\n- 40m 67-72% intensity=interval\n\nMain Set 1x\n- 10m 67-72% 65-70rpm intensity=interval\n\nMain Set 1x\n- 10m 67-72% intensity=interval\n\nMain Set 1x\n- 10m 67-72% 65-70rpm intensity=interval\n\nMain Set 1x\n- 40m 67-72% intensity=interval\n\nCooldown\n- 5m ramp 67-34% intensity=cooldown"
+      "start_time": "18:00",
+      "description": "Po biegu i si\u0142owni. Z2 61\u201366% FTP 307 (187\u2013203 W), granica VE <87. Od grudnia ta godzina = heat training na trena\u017cerze.\n\nWarmup\n- 5m ramp 31-61% intensity=warmup\n\nMain Set 1x\n- 50m 61-66% intensity=interval\n\nCooldown\n- 5m ramp 61-31% intensity=cooldown"
+    },
+    {
+      "id": 153113644,
+      "date": "2026-11-19",
+      "name": "HIDIT mod",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 106,
+      "duration_hours": 1.57,
+      "duration_formatted": "1h34m10s",
+      "workout_summary": "5m [target not shown] | 20m [target not shown] | 3\u00d7(30s [target not shown] + 1m [target not shown]) | [repeat not summarized] | [repeat not summarized] | 5\u00d7(30s [target not shown] + 20s [target not shown]) | [repeat not summarized] | [repeat not summarized] | 5\u00d7(30s [target not shown] + 20s [target not shown]) | 13m [target not shown] | 5m [target not shown]",
+      "has_terrain": false,
+      "description": "HIDIT mod (2. z 2 w tygodniu), dzie\u0144 po biegu i si\u0142owni; D-2 przed wy\u015bcigiem. BEZ ERG (Zwift Cog): biegi manetk\u0105, moc ze \u015bredniej odcinka; 1. po\u0142owa ON na stoj\u0105co (maks. 1\u2032).\nFTP 307: seria 1 ON 359 / OFF 255 W; seria 2 ON 354 / OFF 250 W. Tolerancja: \u00b15 W (ON \u22651\u2032), \u00b110 W (30\u201345\u2033); pierwsze 5 s ON \u2264 +10% (ok. 395 W); OFF 250\u2013260 W.\nPrzerwa mi\u0119dzy seriami 12\u2032. Zwift FTP = 307. Po serii: co pu\u015bci\u0142o pierwsze (oddech/nogi/g\u0142owa).\n\nWarmup\n- 5m ramp 30-60% intensity=warmup\n- 20m 60% intensity=warmup\n\nMain Set 3x\n- 30s 110% intensity=interval\n- 1m 55% intensity=recovery\n\nMain Set 1x\n- 5m 55% intensity=recovery\n\nMain Set 1x\n- 3m 359w intensity=interval\n- 1m40s 255w intensity=recovery\n- 1m45s 359w intensity=interval\n- 1m20s 255w intensity=recovery\n- 1m 359w intensity=interval\n- 40s 255w intensity=recovery\n- 45s 359w intensity=interval\n- 30s 255w intensity=recovery\n\nMain Set 5x\n- 30s 359w intensity=interval\n- 20s 255w intensity=recovery\n\nMain Set 1x\n- 12m 50% intensity=recovery\n\nMain Set 1x\n- 3m 354w intensity=interval\n- 1m40s 250w intensity=recovery\n- 1m45s 354w intensity=interval\n- 1m20s 250w intensity=recovery\n- 1m 354w intensity=interval\n- 40s 250w intensity=recovery\n- 45s 354w intensity=interval\n- 30s 250w intensity=recovery\n\nMain Set 5x\n- 30s 354w intensity=interval\n- 20s 250w intensity=recovery\n\nCooldown\n- 13m 55% intensity=cooldown\n- 5m ramp 55-28% intensity=cooldown"
     },
     {
       "id": 153113645,
       "date": "2026-11-20",
-      "name": "Z1 + opener",
+      "name": "Z2 + opener",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 28,
-      "duration_hours": 0.69,
-      "duration_formatted": "41m30s",
-      "workout_summary": "5m [target not shown] | 10m [target not shown] | 3\u00d7(1m [target not shown] + 3m [target not shown]) | 2\u00d7(15s [target not shown] + 2m [target not shown]) | 5m [target not shown] | 5m [target not shown]",
+      "planned_tss": 64,
+      "duration_hours": 1.49,
+      "duration_formatted": "1h29m30s",
+      "workout_summary": "5m [target not shown] | [repeat not summarized] | 3\u00d7(1m [target not shown] + 3m [target not shown]) | 2\u00d7(15s [target not shown] + 2m [target not shown]) | [repeat not summarized] | 5m [target not shown]",
       "has_terrain": false,
-      "description": "D-1 przed wy\u015bcigiem (C). Kr\u00f3tko z za\u0142o\u017cenia (wyj\u0105tek od 1:30).\n\nWarmup\n- 5m ramp 28-55% intensity=warmup\n- 10m 55% intensity=warmup\n\nMain Set 3x\n- 1m 110% intensity=interval\n- 3m 50% intensity=recovery\n\nMain Set 2x\n- 15s 150% intensity=interval\n- 2m 50% intensity=recovery\n\nCooldown\n- 5m 50% intensity=cooldown\n- 5m ramp 50-25% intensity=cooldown"
+      "description": "D-1 przed wy\u015bcigiem (C), dzie\u0144 po HIDIT: dolna Z2 (61\u201366% FTP 307 = 187\u2013203 W), granica VE <87. Opener w \u015brodku sesji.\n\nWarmup\n- 5m ramp 31-61% intensity=warmup\n\nMain Set 1x\n- 45m 61-66% intensity=interval\n\nMain Set 3x\n- 1m 110% intensity=interval\n- 3m 55% intensity=recovery\n\nMain Set 2x\n- 15s 150% intensity=interval\n- 2m 55% intensity=recovery\n\nMain Set 1x\n- 18m 61-66% intensity=interval\n\nCooldown\n- 5m ramp 61-31% intensity=cooldown"
     },
     {
       "id": 148870340,
@@ -3220,6 +3234,20 @@
       "has_terrain": false,
       "start_time": "10:45",
       "description": "Ci\u0119\u017cko, ma\u0142o powt\u00f3rze\u0144, RPE 7\u20138, bez upadku. Dzie\u0144 po wy\u015bcigu; jutro wolne."
+    },
+    {
+      "id": 156704823,
+      "date": "2026-11-22",
+      "name": "Z2 1 h (po biegu i si\u0142owni)",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 38,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "12:00",
+      "description": "Dzie\u0144 po wy\u015bcigu, po biegu i si\u0142owni. Z2 61\u201366% FTP 307 (187\u2013203 W), granica VE <87. Od grudnia ta godzina = heat training na trena\u017cerze.\n\nWarmup\n- 5m ramp 31-61% intensity=warmup\n\nMain Set 1x\n- 50m 61-66% intensity=interval\n\nCooldown\n- 5m ramp 61-31% intensity=cooldown"
     },
     {
       "id": 148870371,
@@ -3275,12 +3303,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 5,
-    "success": 2,
-    "patternA": 2,
+    "attempted": 7,
+    "success": 3,
+    "patternA": 3,
     "patternB": 0,
     "bail_no_workout_doc": 2,
-    "bail_no_match": 3
+    "bail_no_match": 4
   },
   "weekly_summary": {
     "total_training_hours": 8.25,
