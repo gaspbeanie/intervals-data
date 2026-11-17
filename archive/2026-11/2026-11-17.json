@@ -63,15 +63,15 @@
       "menstrual": "menstrual_phase and menstrual_phase_predicted are not on the 1-4 scale. Values: PERIOD, FOLLICULAR, OVULATION, LUTEAL, etc."
     },
     "quick_stats": {
-      "total_training_hours": 7.55,
-      "total_training_formatted": "7h33m",
-      "total_activities": 5,
-      "total_tss": 566
+      "total_training_hours": 8.75,
+      "total_training_formatted": "8h44m",
+      "total_activities": 6,
+      "total_tss": 631
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-17T09:02:09.371277",
+    "last_updated": "2026-11-17T18:26:03.772956",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.139"
@@ -113,10 +113,10 @@
     },
     {
       "metric": "acwr",
-      "value": 1.43,
+      "value": 1.53,
       "severity": "alarm",
       "threshold": "1.35",
-      "context": "Live ACWR 1.43 crossed the 1.35 reporting threshold. Retrospective load context only \u2014 not a standalone injury-risk conclusion and not a readiness decision. It includes today's completed load, so it must not decide a later same-day session, and must not decide tomorrow before tomorrow morning's new start-of-day calculation. Today's readiness used readiness_decision.signals.acwr (start-of-day).",
+      "context": "Live ACWR 1.53 crossed the 1.35 reporting threshold. Retrospective load context only \u2014 not a standalone injury-risk conclusion and not a readiness decision. It includes today's completed load, so it must not decide a later same-day session, and must not decide tomorrow before tomorrow morning's new start-of-day calculation. Today's readiness used readiness_decision.signals.acwr (start-of-day).",
       "persistence_days": null,
       "tier": 2,
       "scope": "live_retrospective",
@@ -167,7 +167,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 8.6
+        "value": 1.4
       }
     },
     "signal_summary": {
@@ -219,17 +219,17 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 7.55,
-    "total_activities": 5,
+    "total_duration_decimal_hours": 8.75,
+    "total_activities": 6,
     "by_activity_type": {
       "VirtualRide": {
-        "duration_decimal_hours": 7.55,
-        "count": 5,
-        "tss": 566,
-        "distance_km": 223.8,
+        "duration_decimal_hours": 8.75,
+        "count": 6,
+        "tss": 631,
+        "distance_km": 260.3,
         "display": {
           "distance": {
-            "value": 223.8,
+            "value": 260.3,
             "unit": "km"
           }
         }
@@ -238,18 +238,18 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 71.34,
-      "atl": 62.77,
-      "tsb": 8.57,
-      "ramp_rate": 2.17,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "ctl": 72.87,
+      "atl": 71.43,
+      "tsb": 1.44,
+      "ramp_rate": 2.95,
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "eftp": 319.6,
       "w_prime": 28184,
       "w_prime_kj": 28.2,
       "p_max": 982,
-      "vo2max": null,
+      "vo2max": 62.0,
       "sports": {
         "cycling": {
           "lthr": 161,
@@ -315,7 +315,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 241,
+      "steps": 4306,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -351,8 +351,8 @@
     "rhr_baseline_28d": 38.4,
     "latest_hrv": 41.0,
     "latest_rhr": 42,
-    "acwr": 1.43,
-    "acwr_interpretation": "caution",
+    "acwr": 1.53,
+    "acwr_interpretation": "danger",
     "acwr_scope": "live_retrospective",
     "acwr_readiness_eligible": false,
     "acwr_start_of_day": {
@@ -364,76 +364,76 @@
       "acute_days": 7,
       "chronic_days": 28
     },
-    "monotony": 1.36,
+    "monotony": 1.84,
     "monotony_interpretation": "normal",
     "primary_sport": "cycling",
-    "primary_sport_monotony": 1.36,
-    "primary_sport_tss_7d": 566.0,
-    "effective_monotony": 1.36,
+    "primary_sport_monotony": 1.84,
+    "primary_sport_tss_7d": 631.0,
+    "effective_monotony": 1.84,
     "multi_sport_detected": false,
-    "strain": 770.0,
-    "stress_tolerance": 5.7,
-    "load_recovery_ratio": 7.8,
-    "tss_7d_total": 566.0,
-    "tss_28d_total": 1580.0,
+    "strain": 1161.0,
+    "stress_tolerance": 6.3,
+    "load_recovery_ratio": 8.6,
+    "tss_7d_total": 631.0,
+    "tss_28d_total": 1645.0,
     "zone_distribution_7d": {
-      "z1_hours": 2.73,
-      "z2_hours": 1.37,
-      "z3_hours": 0.84,
-      "z4_plus_hours": 2.62,
-      "total_hours": 7.55,
+      "z1_hours": 3.01,
+      "z2_hours": 2.11,
+      "z3_hours": 0.89,
+      "z4_plus_hours": 2.74,
+      "total_hours": 8.75,
       "zone_basis": "power"
     },
-    "grey_zone_percentage": 11.1,
+    "grey_zone_percentage": 10.2,
     "grey_zone_note": "Gray Zone % (Z3/tempo) - minimize in polarized training",
-    "quality_intensity_percentage": 34.6,
+    "quality_intensity_percentage": 31.3,
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
-    "easy_time_ratio": 0.54,
+    "easy_time_ratio": 0.58,
     "easy_time_ratio_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
-    "hard_days_this_week": 0,
+    "hard_days_this_week": 1,
     "hard_days_note": "Power ladder: z3+ >= 30min, z4+ >= 10min, z5+ >= 5min, z6+ >= 2min, z7 >= 1min. HR fallback (when no power): z4+ >= 10min, z5+ >= 5min. Per Seiler 3-zone model + Foster. HR-based days flagged with intensity_basis: hr",
     "seiler_tid_7d": {
-      "z1_seconds": 14754,
-      "z2_seconds": 3026,
-      "z3_seconds": 9414,
-      "z1_pct": 54.3,
-      "z2_pct": 11.1,
-      "z3_pct": 34.6,
-      "polarization_index": 2.23,
+      "z1_seconds": 18418,
+      "z2_seconds": 3219,
+      "z3_seconds": 9863,
+      "z1_pct": 58.5,
+      "z2_pct": 10.2,
+      "z3_pct": 31.3,
+      "polarization_index": 2.25,
       "classification": "Polarized",
       "zone_basis": "power"
     },
     "seiler_tid_7d_primary": {
-      "z1_seconds": 14754,
-      "z2_seconds": 3026,
-      "z3_seconds": 9414,
-      "z1_pct": 54.3,
-      "z2_pct": 11.1,
-      "z3_pct": 34.6,
-      "polarization_index": 2.23,
+      "z1_seconds": 18418,
+      "z2_seconds": 3219,
+      "z3_seconds": 9863,
+      "z1_pct": 58.5,
+      "z2_pct": 10.2,
+      "z3_pct": 31.3,
+      "polarization_index": 2.25,
       "classification": "Polarized",
       "zone_basis": "power",
       "sport": "cycling"
     },
     "seiler_tid_28d": {
-      "z1_seconds": 79250,
-      "z2_seconds": 10938,
-      "z3_seconds": 13636,
-      "z1_pct": 76.3,
-      "z2_pct": 10.5,
-      "z3_pct": 13.1,
-      "polarization_index": 1.98,
+      "z1_seconds": 82914,
+      "z2_seconds": 11131,
+      "z3_seconds": 14085,
+      "z1_pct": 76.7,
+      "z2_pct": 10.3,
+      "z3_pct": 13.0,
+      "polarization_index": 1.99,
       "classification": "Pyramidal",
       "zone_basis": "mixed"
     },
     "seiler_tid_28d_primary": {
-      "z1_seconds": 75495,
-      "z2_seconds": 10720,
-      "z3_seconds": 13230,
-      "z1_pct": 75.9,
-      "z2_pct": 10.8,
-      "z3_pct": 13.3,
-      "polarization_index": 1.97,
+      "z1_seconds": 79159,
+      "z2_seconds": 10913,
+      "z3_seconds": 13679,
+      "z1_pct": 76.3,
+      "z2_pct": 10.5,
+      "z3_pct": 13.2,
+      "polarization_index": 1.98,
       "classification": "Pyramidal",
       "zone_basis": "power",
       "sport": "cycling"
@@ -460,19 +460,19 @@
         "note": "Steady-state cycling sessions only (VI <= 1.05, VI > 0, >= 20min, power+HR data). Rising EF = improving aerobic efficiency. Compare like-for-like sessions only \u2014 EF varies with intensity. Trend compares 7d vs 28d mean (+/-0.03 = stable)."
       },
       "hrrc": {
-        "mean_hrrc_7d": 34.8,
-        "mean_hrrc_28d": 37.0,
-        "qualifying_sessions_7d": 5,
-        "qualifying_sessions_28d": 12,
+        "mean_hrrc_7d": 36.5,
+        "mean_hrrc_28d": 37.6,
+        "qualifying_sessions_7d": 6,
+        "qualifying_sessions_28d": 13,
         "trend": "stable",
         "note": "HRRc = heart rate recovery (largest 60s HR drop in bpm after exceeding threshold HR for >1 min). Higher = better parasympathetic recovery. Null when threshold not reached, recording stopped before cooldown, or no HR data. Trend: 7d mean vs 28d mean, >10% = meaningful (min 1 session/7d, 3 sessions/28d). Display only \u2014 not wired into readiness_decision signals."
       },
       "tid_comparison": {
         "classification_7d": "Polarized",
         "classification_28d": "Pyramidal",
-        "pi_7d": 2.23,
-        "pi_28d": 1.98,
-        "pi_delta": 0.25,
+        "pi_7d": 2.25,
+        "pi_28d": 1.99,
+        "pi_delta": 0.26,
         "drift": "shifting",
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. pi_delta positive = more polarized acutely."
       },
@@ -655,11 +655,11 @@
       },
       "dfa_a1_profile": null
     },
-    "consistency_index": 0.0,
+    "consistency_index": 1.0,
     "consistency_details": {
       "planned_days": 1,
-      "completed_days": 5,
-      "matched_days": 0,
+      "completed_days": 6,
+      "matched_days": 1,
       "planned_dates": [
         "2026-11-17"
       ],
@@ -668,7 +668,8 @@
         "2026-11-12",
         "2026-11-13",
         "2026-11-14",
-        "2026-11-15"
+        "2026-11-15",
+        "2026-11-17"
       ]
     },
     "phase_detection": {
@@ -687,12 +688,12 @@
         "stream_2": {
           "planned_tss_delta": 0.89,
           "hard_sessions_planned": 4,
-          "current_week_hard_days_completed": 0,
-          "current_week_hard_days_total": 4,
+          "current_week_hard_days_completed": 1,
+          "current_week_hard_days_total": 5,
           "race_proximity": 4,
-          "next_week_load": null,
+          "next_week_load": 0.84,
           "plan_coverage_current_week": 1.67,
-          "plan_coverage_next_week": 0.17
+          "plan_coverage_next_week": 1.5
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -726,13 +727,13 @@
     "w_prime_kj": 28.2,
     "p_max": 982,
     "power_model_source": "wellness.sportInfo",
-    "vo2max": null,
-    "calculation_timestamp": "2026-11-17T09:02:09.370248",
+    "vo2max": 62.0,
+    "calculation_timestamp": "2026-11-17T18:26:03.771642",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
-      "activities_7d": 5,
-      "activities_28d": 20,
+      "activities_7d": 6,
+      "activities_28d": 21,
       "planned_workouts_7d": 6,
       "ftp_history_days": {
         "indoor": 28,
@@ -741,6 +742,80 @@
     }
   },
   "recent_activities": [
+    {
+      "id": "i211308199",
+      "date": "2026-11-17T16:08:01",
+      "type": "VirtualRide",
+      "name": "HIDIT mod",
+      "duration_hours": 1.2,
+      "duration_formatted": "1h11m46s",
+      "distance_km": 36.49,
+      "tss": 65,
+      "intensity_factor": 73.61564,
+      "avg_power": 194,
+      "normalized_power": 226,
+      "avg_hr": 118,
+      "max_hr": 167,
+      "avg_cadence": 86.2602,
+      "avg_speed": 30.5,
+      "avg_speed_unit": "KPH",
+      "max_speed": 37.7,
+      "max_speed_unit": "KPH",
+      "avg_pace": null,
+      "avg_temp": null,
+      "avg_temp_unit": "C",
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "wind_speed_unit": "KMH",
+      "work_kj": 835.2,
+      "calories": 935,
+      "carbs_used": 226,
+      "carbs_ingested": null,
+      "variability_index": 1.1649485,
+      "decoupling": 7.639172,
+      "efficiency_factor": 1.9152542,
+      "hrrc": 45,
+      "elevation_m": null,
+      "display": {
+        "distance": {
+          "value": 36.49,
+          "unit": "km"
+        },
+        "elevation": null,
+        "avg_speed": {
+          "value": 30.5,
+          "unit": "km/h"
+        },
+        "max_speed": {
+          "value": 37.7,
+          "unit": "km/h"
+        }
+      },
+      "feel": null,
+      "rpe": null,
+      "effort_response": null,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 1345,
+          "z2_time": 2297,
+          "z3_time": 177,
+          "z4_time": 487,
+          "z5_time": 0
+        },
+        "power_zones": {
+          "z1_time": 1029,
+          "z2_time": 2635,
+          "z3_time": 193,
+          "z4_time": 19,
+          "z5_time": 351,
+          "z6_time": 79,
+          "z7_time": 0
+        }
+      },
+      "has_intervals": true,
+      "has_dfa": false
+    },
     {
       "id": "i210456963",
       "date": "2026-11-15T17:30:36",
@@ -2933,7 +3008,7 @@
       "sleep_score": 85.0,
       "mental_energy": null,
       "avg_sleeping_hr": null,
-      "vo2max": null,
+      "vo2max": 62.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -2950,7 +3025,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 241,
+      "steps": 4306,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2976,8 +3051,21 @@
       "description": "HIDIT mod (1. z 2 w tygodniu), po dniu wolnym. BEZ ERG (Zwift Cog): biegi manetk\u0105, moc ze \u015bredniej odcinka; 1. po\u0142owa ON na stoj\u0105co (maks. 1\u2032).\nFTP 307: seria 1 ON 359 / OFF 255 W; seria 2 ON 354 / OFF 250 W. Tolerancja: \u00b15 W (ON \u22651\u2032), \u00b110 W (30\u201345\u2033); pierwsze 5 s ON \u2264 +10% (ok. 395 W); OFF 250\u2013260 W.\nPrzerwa mi\u0119dzy seriami 12\u2032. Zwift FTP = 307. Po serii: co pu\u015bci\u0142o pierwsze (oddech/nogi/g\u0142owa).\n\nWarmup\n- 5m ramp 30-60% intensity=warmup\n- 20m 60% intensity=warmup\n\nMain Set 3x\n- 30s 110% intensity=interval\n- 1m 55% intensity=recovery\n\nMain Set 1x\n- 5m 55% intensity=recovery\n\nMain Set 1x\n- 3m 359w intensity=interval\n- 1m40s 255w intensity=recovery\n- 1m45s 359w intensity=interval\n- 1m20s 255w intensity=recovery\n- 1m 359w intensity=interval\n- 40s 255w intensity=recovery\n- 45s 359w intensity=interval\n- 30s 255w intensity=recovery\n\nMain Set 5x\n- 30s 359w intensity=interval\n- 20s 255w intensity=recovery\n\nMain Set 1x\n- 12m 50% intensity=recovery\n\nMain Set 1x\n- 3m 354w intensity=interval\n- 1m40s 250w intensity=recovery\n- 1m45s 354w intensity=interval\n- 1m20s 250w intensity=recovery\n- 1m 354w intensity=interval\n- 40s 250w intensity=recovery\n- 45s 354w intensity=interval\n- 30s 250w intensity=recovery\n\nMain Set 5x\n- 30s 354w intensity=interval\n- 20s 250w intensity=recovery\n\nCooldown\n- 13m 55% intensity=cooldown\n- 5m ramp 55-28% intensity=cooldown"
     },
     {
-      "id": 153113641,
+      "id": 153113644,
       "date": "2026-11-18",
+      "name": "HIDIT mod",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 103,
+      "duration_hours": 1.57,
+      "duration_formatted": "1h34m10s",
+      "workout_summary": "5m [target not shown] | 20m [target not shown] | 3\u00d7(30s [target not shown] + 1m [target not shown]) | [repeat not summarized] | [repeat not summarized] | 5\u00d7(30s [target not shown] + 20s [target not shown]) | [repeat not summarized] | [repeat not summarized] | 5\u00d7(30s [target not shown] + 20s [target not shown]) | 13m [target not shown] | 5m [target not shown]",
+      "has_terrain": false,
+      "description": "HIDIT mod (2. z 2 w tygodniu, dzie\u0144 2 bloku Wt\u2013\u015ar; D-3 przed wy\u015bcigiem). BEZ ERG (Zwift Cog): biegi manetk\u0105, moc ze \u015bredniej odcinka; 1. po\u0142owa ON na stoj\u0105co (maks. 1\u2032).\nSeria 1: ON 355 / OFF 255 W; seria 2: ON 345 / OFF 245 W (FTP 307 bez zmian). Tolerancja: \u00b15 W (ON \u22651\u2032), \u00b110 W (30\u201345\u2033); pierwsze 5 s ON \u2264 +10% (ok. 390 W); OFF \u00b15 W.\nPrzerwa mi\u0119dzy seriami 12\u2032. Zwift FTP = 307. Po serii: co pu\u015bci\u0142o pierwsze (oddech/nogi/g\u0142owa).\n\nWarmup\n- 5m ramp 30-60% intensity=warmup\n- 20m 60% intensity=warmup\n\nMain Set 3x\n- 30s 110% intensity=interval\n- 1m 55% intensity=recovery\n\nMain Set 1x\n- 5m 55% intensity=recovery\n\nMain Set 1x\n- 3m 355w intensity=interval\n- 1m40s 255w intensity=recovery\n- 1m45s 355w intensity=interval\n- 1m20s 255w intensity=recovery\n- 1m 355w intensity=interval\n- 40s 255w intensity=recovery\n- 45s 355w intensity=interval\n- 30s 255w intensity=recovery\n\nMain Set 5x\n- 30s 355w intensity=interval\n- 20s 255w intensity=recovery\n\nMain Set 1x\n- 12m 50% intensity=recovery\n\nMain Set 1x\n- 3m 345w intensity=interval\n- 1m40s 245w intensity=recovery\n- 1m45s 345w intensity=interval\n- 1m20s 245w intensity=recovery\n- 1m 345w intensity=interval\n- 40s 245w intensity=recovery\n- 45s 345w intensity=interval\n- 30s 245w intensity=recovery\n\nMain Set 5x\n- 30s 345w intensity=interval\n- 20s 245w intensity=recovery\n\nCooldown\n- 13m 55% intensity=cooldown\n- 5m ramp 55-28% intensity=cooldown"
+    },
+    {
+      "id": 153113641,
+      "date": "2026-11-19",
       "name": "Bieg 25\u2032",
       "type": "WORKOUT",
       "sport_type": "Run",
@@ -2987,11 +3075,11 @@
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "16:00",
-      "description": "Spokojnie 25\u2032, HR ~130. Kostka L: przy b\u00f3lu >3/10 przerwij.\n\nMain Set 1x\n- 25m Z1 HR intensity=warmup"
+      "description": "Spokojnie 25\u2032, HR ok. 130. Kostka L: przy b\u00f3lu >3/10 przerwij.\n\nMain Set 1x\n- 25m Z1 HR intensity=warmup"
     },
     {
       "id": 153113642,
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "name": "Si\u0142ownia (powr\u00f3t po przerwie)",
       "type": "WORKOUT",
       "sport_type": "WeightTraining",
@@ -3001,11 +3089,11 @@
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "16:45",
-      "description": "Pierwsza sesja po 2 tyg. przerwy: ci\u0119\u017cko, ma\u0142o powt\u00f3rze\u0144, ale RPE 6\u20137 (nie 7\u20138). Kostka L: bez wspi\u0119\u0107, skok\u00f3w i wykrok\u00f3w, je\u015bli boli. 3 dni przed wy\u015bcigiem."
+      "description": "Pierwsza sesja po 2 tyg. przerwy: ci\u0119\u017cko, ma\u0142o powt\u00f3rze\u0144, RPE 6\u20137, bez pracy do upadku. Kostka L: bez wspi\u0119\u0107, skok\u00f3w i wykrok\u00f3w, je\u015bli boli. D-2 przed wy\u015bcigiem."
     },
     {
       "id": 156704818,
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "name": "Z2 1 h (po biegu i si\u0142owni)",
       "type": "WORKOUT",
       "sport_type": "Ride",
@@ -3015,20 +3103,7 @@
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "18:00",
-      "description": "Po biegu i si\u0142owni. Z2 61\u201366% FTP 307 (187\u2013203 W), granica VE <87. Od grudnia ta godzina = heat training na trena\u017cerze.\n\nWarmup\n- 5m ramp 31-61% intensity=warmup\n\nMain Set 1x\n- 50m 61-66% intensity=interval\n\nCooldown\n- 5m ramp 61-31% intensity=cooldown"
-    },
-    {
-      "id": 153113644,
-      "date": "2026-11-19",
-      "name": "HIDIT mod",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 106,
-      "duration_hours": 1.57,
-      "duration_formatted": "1h34m10s",
-      "workout_summary": "5m [target not shown] | 20m [target not shown] | 3\u00d7(30s [target not shown] + 1m [target not shown]) | [repeat not summarized] | [repeat not summarized] | 5\u00d7(30s [target not shown] + 20s [target not shown]) | [repeat not summarized] | [repeat not summarized] | 5\u00d7(30s [target not shown] + 20s [target not shown]) | 13m [target not shown] | 5m [target not shown]",
-      "has_terrain": false,
-      "description": "HIDIT mod (2. z 2 w tygodniu), dzie\u0144 po biegu i si\u0142owni; D-2 przed wy\u015bcigiem. BEZ ERG (Zwift Cog): biegi manetk\u0105, moc ze \u015bredniej odcinka; 1. po\u0142owa ON na stoj\u0105co (maks. 1\u2032).\nFTP 307: seria 1 ON 359 / OFF 255 W; seria 2 ON 354 / OFF 250 W. Tolerancja: \u00b15 W (ON \u22651\u2032), \u00b110 W (30\u201345\u2033); pierwsze 5 s ON \u2264 +10% (ok. 395 W); OFF 250\u2013260 W.\nPrzerwa mi\u0119dzy seriami 12\u2032. Zwift FTP = 307. Po serii: co pu\u015bci\u0142o pierwsze (oddech/nogi/g\u0142owa).\n\nWarmup\n- 5m ramp 30-60% intensity=warmup\n- 20m 60% intensity=warmup\n\nMain Set 3x\n- 30s 110% intensity=interval\n- 1m 55% intensity=recovery\n\nMain Set 1x\n- 5m 55% intensity=recovery\n\nMain Set 1x\n- 3m 359w intensity=interval\n- 1m40s 255w intensity=recovery\n- 1m45s 359w intensity=interval\n- 1m20s 255w intensity=recovery\n- 1m 359w intensity=interval\n- 40s 255w intensity=recovery\n- 45s 359w intensity=interval\n- 30s 255w intensity=recovery\n\nMain Set 5x\n- 30s 359w intensity=interval\n- 20s 255w intensity=recovery\n\nMain Set 1x\n- 12m 50% intensity=recovery\n\nMain Set 1x\n- 3m 354w intensity=interval\n- 1m40s 250w intensity=recovery\n- 1m45s 354w intensity=interval\n- 1m20s 250w intensity=recovery\n- 1m 354w intensity=interval\n- 40s 250w intensity=recovery\n- 45s 354w intensity=interval\n- 30s 250w intensity=recovery\n\nMain Set 5x\n- 30s 354w intensity=interval\n- 20s 250w intensity=recovery\n\nCooldown\n- 13m 55% intensity=cooldown\n- 5m ramp 55-28% intensity=cooldown"
+      "description": "Po biegu i si\u0142owni. Z2 61\u201366% FTP 307 (187\u2013203 W), granica VE <87.\n\nWarmup\n- 5m ramp 31-61% intensity=warmup\n\nMain Set 1x\n- 50m 61-66% intensity=interval\n\nCooldown\n- 5m ramp 61-31% intensity=cooldown"
     },
     {
       "id": 153113645,
@@ -3046,15 +3121,15 @@
     {
       "id": 148870340,
       "date": "2026-11-21",
-      "name": "race zwift",
+      "name": "ZTPL Jesie\u0144 1: Bologna Hilly (A)",
       "type": "RACE_C",
       "sport_type": "Ride",
       "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
+      "duration_hours": 1.08,
+      "duration_formatted": "1h5m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": ""
+      "description": "Kat. A: Bologna Time Trial Lap x2,5 | 40 km | 708 m\nhttps://zwiftinsider.com/route/time-trial-lap/\nCzas szacunkowy [d]: 1:00-1:10\nSufit HR 170 w pierwszych 20 min."
     },
     {
       "id": 153113646,
@@ -3099,43 +3174,229 @@
       "description": "Dzie\u0144 po wy\u015bcigu, po biegu i si\u0142owni. Z2 61\u201366% FTP 307 (187\u2013203 W), granica VE <87. Od grudnia ta godzina = heat training na trena\u017cerze.\n\nWarmup\n- 5m ramp 31-61% intensity=warmup\n\nMain Set 1x\n- 50m 61-66% intensity=interval\n\nCooldown\n- 5m ramp 61-31% intensity=cooldown"
     },
     {
-      "id": 148870371,
-      "date": "2026-11-28",
-      "name": "race zwift",
-      "type": "RACE_C",
-      "sport_type": "Ride",
+      "id": 157184873,
+      "date": "2026-11-23",
+      "name": "Wolne",
+      "type": "NOTE",
+      "sport_type": null,
       "planned_tss": null,
       "duration_hours": 0.0,
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": null
+      "description": "Dzie\u0144 wolny (pn po sobotnim wy\u015bcigu i niedzieli bieg+si\u0142ownia).\nOd dzi\u015b PRZERWA W \u017bELAZIE (SiderAL + Thorne) do badania krwi pn 30 XI = 7 dni (wiarygodny TSAT)."
+    },
+    {
+      "id": 157183915,
+      "date": "2026-11-24",
+      "name": "HIDIT mod",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 103,
+      "duration_hours": 1.57,
+      "duration_formatted": "1h34m10s",
+      "workout_summary": "5m [target not shown] | 20m [target not shown] | 3\u00d7(30s [target not shown] + 1m [target not shown]) | [repeat not summarized] | [repeat not summarized] | 5\u00d7(30s [target not shown] + 20s [target not shown]) | [repeat not summarized] | [repeat not summarized] | 5\u00d7(30s [target not shown] + 20s [target not shown]) | 13m [target not shown] | 5m [target not shown]",
+      "has_terrain": false,
+      "description": "HIDIT mod (1. z 2 w tygodniu, dzie\u0144 1 bloku Wt\u2013\u015ar). BEZ ERG (Zwift Cog): biegi manetk\u0105, moc ze \u015bredniej odcinka; 1. po\u0142owa ON na stoj\u0105co (maks. 1\u2032).\nSeria 1: ON 355 / OFF 255 W; seria 2: ON 345 / OFF 245 W (FTP 307 bez zmian). Tolerancja: \u00b15 W (ON \u22651\u2032), \u00b110 W (30\u201345\u2033); pierwsze 5 s ON \u2264 +10% (ok. 390 W); OFF \u00b15 W.\nPrzerwa mi\u0119dzy seriami 12\u2032. Zwift FTP = 307. Po serii: co pu\u015bci\u0142o pierwsze (oddech/nogi/g\u0142owa).\n\nWarmup\n- 5m ramp 30-60% intensity=warmup\n- 20m 60% intensity=warmup\n\nMain Set 3x\n- 30s 110% intensity=interval\n- 1m 55% intensity=recovery\n\nMain Set 1x\n- 5m 55% intensity=recovery\n\nMain Set 1x\n- 3m 355w intensity=interval\n- 1m40s 255w intensity=recovery\n- 1m45s 355w intensity=interval\n- 1m20s 255w intensity=recovery\n- 1m 355w intensity=interval\n- 40s 255w intensity=recovery\n- 45s 355w intensity=interval\n- 30s 255w intensity=recovery\n\nMain Set 5x\n- 30s 355w intensity=interval\n- 20s 255w intensity=recovery\n\nMain Set 1x\n- 12m 50% intensity=recovery\n\nMain Set 1x\n- 3m 345w intensity=interval\n- 1m40s 245w intensity=recovery\n- 1m45s 345w intensity=interval\n- 1m20s 245w intensity=recovery\n- 1m 345w intensity=interval\n- 40s 245w intensity=recovery\n- 45s 345w intensity=interval\n- 30s 245w intensity=recovery\n\nMain Set 5x\n- 30s 345w intensity=interval\n- 20s 245w intensity=recovery\n\nCooldown\n- 13m 55% intensity=cooldown\n- 5m ramp 55-28% intensity=cooldown"
+    },
+    {
+      "id": 157183916,
+      "date": "2026-11-25",
+      "name": "HIDIT mod",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 103,
+      "duration_hours": 1.57,
+      "duration_formatted": "1h34m10s",
+      "workout_summary": "5m [target not shown] | 20m [target not shown] | 3\u00d7(30s [target not shown] + 1m [target not shown]) | [repeat not summarized] | [repeat not summarized] | 5\u00d7(30s [target not shown] + 20s [target not shown]) | [repeat not summarized] | [repeat not summarized] | 5\u00d7(30s [target not shown] + 20s [target not shown]) | 13m [target not shown] | 5m [target not shown]",
+      "has_terrain": false
+    },
+    {
+      "id": 157183917,
+      "date": "2026-11-26",
+      "name": "Bieg 25\u2032",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 16,
+      "duration_hours": 0.42,
+      "duration_formatted": "25m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "16:00",
+      "description_preview": "Spokojnie 25\u2032. Kostka L: przy b\u00f3lu >3/10 przerwij.\nMain Set 1x\n- 25m Z1 HR intensity=warmup"
+    },
+    {
+      "id": 157183918,
+      "date": "2026-11-26",
+      "name": "Si\u0142ownia",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": null,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "16:45",
+      "description_preview": "Ci\u0119\u017cko, ma\u0142o powt\u00f3rze\u0144, RPE 6\u20137 (D-2 przed ITT, bez pracy do upadku). 4 dni przed badaniem krwi 30 XI."
+    },
+    {
+      "id": 157183919,
+      "date": "2026-11-26",
+      "name": "Z2 1 h (po biegu i si\u0142owni)",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 38,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "18:00",
+      "description_preview": "Po biegu i si\u0142owni. Z2 61\u201366% FTP 307 (187\u2013203 W), granica VE <87.\nWarmup\n- 5m ramp 31-61% intensity=warmup"
+    },
+    {
+      "id": 157184876,
+      "date": "2026-11-27",
+      "name": "Z2 + opener (ITT)",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 71,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": "5m [target not shown] | [repeat not summarized] | 2\u00d7(4m [target not shown] + 3m [target not shown]) | 2\u00d7(15s [target not shown] + 2m [target not shown]) | [repeat not summarized] | 5m [target not shown]",
+      "has_terrain": false
+    },
+    {
+      "id": 148870371,
+      "date": "2026-11-28",
+      "name": "ZTPL Jesie\u0144 2: ITT London (A)",
+      "type": "RACE_C",
+      "sport_type": "Ride",
+      "planned_tss": null,
+      "duration_hours": 0.97,
+      "duration_formatted": "58m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "Kat. A: ITT Keith Hill After Party | 36,8 km | 435 m\nhttps://zwiftinsider.com/route/keith-hill-after-party/\nCzas szacunkowy [d]: 0:55-1:00"
+    },
+    {
+      "id": 157184878,
+      "date": "2026-11-29",
+      "name": "Bieg 25\u2032",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 16,
+      "duration_hours": 0.42,
+      "duration_formatted": "25m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "10:00",
+      "description_preview": "Spokojnie 25\u2032. Kostka L: przy b\u00f3lu >3/10 przerwij.\nMain Set 1x\n- 25m Z1 HR intensity=warmup"
+    },
+    {
+      "id": 157184880,
+      "date": "2026-11-29",
+      "name": "Z2 1:30 (bez si\u0142owni \u2014 badanie krwi)",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 70,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "11:00",
+      "description_preview": "Dzie\u0144 po ITT, D-1 przed badaniem krwi: SI\u0141OWNIA ODPADA (ferrytyna = bia\u0142ko ostrej fazy). Zamiast godziny Z2 po si\u0142owni \u2014 1:30 g\u00f3rnej Z2 (205\u2013220 W = 67\u201372% FTP 307), granica VE <87. Bez sprint\u00f3w i niskiej kadencji.\nWarmup\n- 5m ramp 34-67% intensity=warmup"
     },
     {
       "id": 148870553,
       "date": "2026-12-05",
-      "name": "race zwift",
+      "name": "ZTPL Jesie\u0144 3: Yorkshire Tewit Well (A)",
       "type": "RACE_C",
       "sport_type": "Ride",
       "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
+      "duration_hours": 0.87,
+      "duration_formatted": "52m",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": null
+      "description_preview": "Kat. A: Tour of Tewit Well x3 | 32,4 km | 612 m\nhttps://zwiftinsider.com/route/tour-of-tewit-well/\nCzas szacunkowy [d]: 0:50-0:55"
+    },
+    {
+      "id": 157183920,
+      "date": "2026-12-08",
+      "name": "HIDIT mod",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 103,
+      "duration_hours": 1.57,
+      "duration_formatted": "1h34m10s",
+      "workout_summary": "5m [target not shown] | 20m [target not shown] | 3\u00d7(30s [target not shown] + 1m [target not shown]) | [repeat not summarized] | [repeat not summarized] | 5\u00d7(30s [target not shown] + 20s [target not shown]) | [repeat not summarized] | [repeat not summarized] | 5\u00d7(30s [target not shown] + 20s [target not shown]) | 13m [target not shown] | 5m [target not shown]",
+      "has_terrain": false
+    },
+    {
+      "id": 157183923,
+      "date": "2026-12-09",
+      "name": "HIDIT mod",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 103,
+      "duration_hours": 1.57,
+      "duration_formatted": "1h34m10s",
+      "workout_summary": "5m [target not shown] | 20m [target not shown] | 3\u00d7(30s [target not shown] + 1m [target not shown]) | [repeat not summarized] | [repeat not summarized] | 5\u00d7(30s [target not shown] + 20s [target not shown]) | [repeat not summarized] | [repeat not summarized] | 5\u00d7(30s [target not shown] + 20s [target not shown]) | 13m [target not shown] | 5m [target not shown]",
+      "has_terrain": false
+    },
+    {
+      "id": 157183924,
+      "date": "2026-12-10",
+      "name": "Bieg 25\u2032",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 16,
+      "duration_hours": 0.42,
+      "duration_formatted": "25m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "16:00",
+      "description_preview": "Spokojnie 25\u2032. Kostka L: przy b\u00f3lu >3/10 przerwij.\nMain Set 1x\n- 25m Z1 HR intensity=warmup"
+    },
+    {
+      "id": 157183925,
+      "date": "2026-12-10",
+      "name": "Si\u0142ownia",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": null,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "16:45",
+      "description_preview": "Ci\u0119\u017cko, ma\u0142o powt\u00f3rze\u0144, RPE 6\u20137 (D-2 przed Power to the Tower, bez pracy do upadku)."
+    },
+    {
+      "id": 157183926,
+      "date": "2026-12-10",
+      "name": "Z2 1 h heat (po biegu i si\u0142owni)",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 38,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "18:00",
+      "description_preview": "Po biegu i si\u0142owni. Heat training na trena\u017cerze. Z2 61\u201366% FTP 307 (187\u2013203 W), granica VE <87.\nWarmup\n- 5m ramp 31-61% intensity=warmup"
     },
     {
       "id": 148870642,
       "date": "2026-12-12",
-      "name": "race zwift",
+      "name": "ZTPL Jesie\u0144 4: Watopia Power to the Tower (A)",
       "type": "RACE_C",
       "sport_type": "Ride",
       "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
+      "duration_hours": 1.67,
+      "duration_formatted": "1h40m",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": null
+      "description_preview": "Kat. A: Power to the Tower | 44,7 km | 1452 m\nhttps://zwiftinsider.com/route/power-to-the-tower/\nCzas szacunkowy [d]: 1:30-1:45"
     },
     {
       "id": 148870706,
@@ -3152,29 +3413,29 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 7,
-    "success": 3,
-    "patternA": 3,
+    "attempted": 18,
+    "success": 8,
+    "patternA": 8,
     "patternB": 0,
-    "bail_no_workout_doc": 2,
-    "bail_no_match": 4
+    "bail_no_workout_doc": 8,
+    "bail_no_match": 10
   },
   "weekly_summary": {
-    "total_training_hours": 7.55,
-    "total_training_formatted": "7h33m",
-    "total_tss": 566,
-    "activities_count": 5,
+    "total_training_hours": 8.75,
+    "total_training_formatted": "8h44m",
+    "total_tss": 631,
+    "activities_count": 6,
     "avg_hrv": 52.7,
     "avg_resting_hr": 39.4
   },
   "race_calendar": {
     "next_race": {
-      "name": "race zwift",
+      "name": "ZTPL Jesie\u0144 1: Bologna Hilly (A)",
       "date": "2026-11-21",
       "category": "RACE_C",
       "type": "Ride",
       "days_until": 4,
-      "moving_time_seconds": null,
+      "moving_time_seconds": 3900,
       "distance_meters": null,
       "display": {
         "distance": null
@@ -3183,12 +3444,12 @@
     },
     "all_races": [
       {
-        "name": "race zwift",
+        "name": "ZTPL Jesie\u0144 1: Bologna Hilly (A)",
         "date": "2026-11-21",
         "category": "RACE_C",
         "type": "Ride",
         "days_until": 4,
-        "moving_time_seconds": null,
+        "moving_time_seconds": 3900,
         "distance_meters": null,
         "display": {
           "distance": null
@@ -3196,12 +3457,12 @@
         "has_terrain": false
       },
       {
-        "name": "race zwift",
+        "name": "ZTPL Jesie\u0144 2: ITT London (A)",
         "date": "2026-11-28",
         "category": "RACE_C",
         "type": "Ride",
         "days_until": 11,
-        "moving_time_seconds": null,
+        "moving_time_seconds": 3480,
         "distance_meters": null,
         "display": {
           "distance": null
@@ -3209,12 +3470,12 @@
         "has_terrain": false
       },
       {
-        "name": "race zwift",
+        "name": "ZTPL Jesie\u0144 3: Yorkshire Tewit Well (A)",
         "date": "2026-12-05",
         "category": "RACE_C",
         "type": "Ride",
         "days_until": 18,
-        "moving_time_seconds": null,
+        "moving_time_seconds": 3120,
         "distance_meters": null,
         "display": {
           "distance": null
@@ -3222,12 +3483,12 @@
         "has_terrain": false
       },
       {
-        "name": "race zwift",
+        "name": "ZTPL Jesie\u0144 4: Watopia Power to the Tower (A)",
         "date": "2026-12-12",
         "category": "RACE_C",
         "type": "Ride",
         "days_until": 25,
-        "moving_time_seconds": null,
+        "moving_time_seconds": 6000,
         "distance_meters": null,
         "display": {
           "distance": null
