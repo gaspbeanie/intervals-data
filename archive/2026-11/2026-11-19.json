@@ -71,7 +71,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-19T17:16:20.590351",
+    "last_updated": "2026-11-19T23:45:16.733306",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.139"
@@ -182,7 +182,7 @@
   "history": {
     "available": true,
     "last_generated": "2026-11-12",
-    "age_days": 6,
+    "age_days": 7,
     "total_months": 35,
     "history_confidence": "high"
   },
@@ -211,8 +211,8 @@
       "ctl": 71.34,
       "atl": 63.02,
       "tsb": 8.32,
-      "ramp_rate": 2.83,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "ramp_rate": 0.24,
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "eftp": 319.6,
@@ -622,15 +622,14 @@
       },
       "dfa_a1_profile": null
     },
-    "consistency_index": 0.67,
+    "consistency_index": 1.0,
     "consistency_details": {
-      "planned_days": 3,
+      "planned_days": 2,
       "completed_days": 5,
       "matched_days": 2,
       "planned_dates": [
         "2026-11-17",
-        "2026-11-18",
-        "2026-11-19"
+        "2026-11-18"
       ],
       "completed_dates": [
         "2026-11-13",
@@ -654,13 +653,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.6,
-          "hard_sessions_planned": 3,
+          "planned_tss_delta": 0.39,
+          "hard_sessions_planned": 2,
           "current_week_hard_days_completed": 2,
-          "current_week_hard_days_total": 5,
+          "current_week_hard_days_total": 4,
           "race_proximity": 2,
           "next_week_load": 0.84,
-          "plan_coverage_current_week": 1.0,
+          "plan_coverage_current_week": 0.83,
           "plan_coverage_next_week": 1.5
         },
         "data_quality": "good",
@@ -696,13 +695,13 @@
     "p_max": 982,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-19T17:16:20.589676",
+    "calculation_timestamp": "2026-11-19T23:45:16.732626",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 5,
       "activities_28d": 21,
-      "planned_workouts_7d": 6,
+      "planned_workouts_7d": 5,
       "ftp_history_days": {
         "indoor": 28,
         "outdoor": 28
@@ -2847,17 +2846,17 @@
   ],
   "planned_workouts": [
     {
-      "id": 156704818,
+      "id": 158133377,
       "date": "2026-11-19",
-      "name": "Z2 1:30 + niska kadencja (opcja)",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 55,
-      "duration_hours": 1.42,
-      "duration_formatted": "1h25m",
-      "workout_summary": "5m [target not shown] | [repeat not summarized] | 2\u00d7(10m [target not shown] + 10m [target not shown]) | [repeat not summarized] | 5m [target not shown]",
+      "name": "Wolne",
+      "type": "NOTE",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
       "has_terrain": false,
-      "description": "Regeneracja po etap\u00f3wce i 2 nieudanych HIDIT: bez biegu i si\u0142owni (wracaj\u0105 od niedzieli). Z2 61\u201366% FTP 307 (187\u2013203 W), granica VE <87. Opcjonalnie 2\u00d710\u2032 przy 65\u201370 rpm w tej samej mocy \u2014 tylko je\u015bli nogi ch\u0119tne. Wolno skr\u00f3ci\u0107 do 1 h. D-2 przed wy\u015bcigiem.\n\nWarmup\n- 5m ramp 31-61% intensity=warmup\n\nMain Set 1x\n- 20m 61-66% intensity=interval\n\nMain Set 2x\n- 10m 61-66% 65-70rpm intensity=interval\n- 10m 61-66% intensity=interval\n\nMain Set 1x\n- 15m 61-66% intensity=interval\n\nCooldown\n- 5m ramp 61-31% intensity=cooldown"
+      "description": ""
     },
     {
       "id": 153113645,
@@ -3168,9 +3167,9 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 15,
-    "success": 7,
-    "patternA": 7,
+    "attempted": 14,
+    "success": 6,
+    "patternA": 6,
     "patternB": 0,
     "bail_no_workout_doc": 7,
     "bail_no_match": 8
