@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T06:30:20.892567",
+  "generated_at": "2026-11-22T14:51:19.710322",
   "schema_version": 1,
   "version": "3.139",
   "script_hash": "643c6e9c8b36",
@@ -3216,6 +3216,85 @@
         }
       ],
       "zone_basis": "power"
+    },
+    {
+      "activity_id": "i213060732",
+      "date": "2026-11-22",
+      "start_datetime": "2026-11-22T07:14:41",
+      "type": "TrailRun",
+      "name": "Bieg 25\u2032",
+      "interval_summary": [
+        "4x 6m34s 112bpm",
+        "1x 47s 106bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "394s@112bpm79rpm",
+          "duration_secs": 389,
+          "moving_secs": 389,
+          "start_secs": 0,
+          "end_secs": 389,
+          "avg_hr": 110,
+          "max_hr": 125,
+          "min_hr": 58,
+          "avg_cadence": 77.362465,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "394s@112bpm79rpm",
+          "duration_secs": 382,
+          "moving_secs": 382,
+          "start_secs": 389,
+          "end_secs": 771,
+          "avg_hr": 107,
+          "max_hr": 119,
+          "min_hr": 102,
+          "avg_cadence": 80.426704,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "394s@112bpm79rpm",
+          "duration_secs": 412,
+          "moving_secs": 412,
+          "start_secs": 771,
+          "end_secs": 1183,
+          "avg_hr": 114,
+          "max_hr": 122,
+          "min_hr": 102,
+          "avg_cadence": 79.043686,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "394s@112bpm79rpm",
+          "duration_secs": 393,
+          "moving_secs": 393,
+          "start_secs": 1183,
+          "end_secs": 1576,
+          "avg_hr": 115,
+          "max_hr": 130,
+          "min_hr": 106,
+          "avg_cadence": 78.8855,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "47s@106bpm79rpm",
+          "duration_secs": 47,
+          "moving_secs": 47,
+          "start_secs": 1576,
+          "end_secs": 1623,
+          "avg_hr": 106,
+          "max_hr": 108,
+          "min_hr": 106,
+          "avg_cadence": 79.0,
+          "zone": 1
+        }
+      ],
+      "zone_basis": "hr"
     }
   ],
   "fetch_state": {
@@ -3397,12 +3476,12 @@
         "source_icu_sync_date": "2026-11-20T16:46:14.021+00:00"
       },
       "streams": {
-        "attempts": 6,
+        "attempts": 7,
         "first_seen": "2026-11-20T22:36:59.055217",
-        "last_attempt": "2026-11-22T06:30:20.892567",
+        "last_attempt": "2026-11-22T14:51:19.710322",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-22T06:35:20.892567"
+        "next_retry_at": "2026-11-22T15:21:19.710322"
       }
     },
     "i212919298": {
@@ -3416,12 +3495,32 @@
         "source_icu_sync_date": "2026-11-21T18:23:54.026+00:00"
       },
       "streams": {
-        "attempts": 3,
+        "attempts": 4,
         "first_seen": "2026-11-21T19:04:45.178085",
-        "last_attempt": "2026-11-22T06:30:20.892567",
+        "last_attempt": "2026-11-22T14:51:19.710322",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-22T06:35:20.892567"
+        "next_retry_at": "2026-11-22T14:56:19.710322"
+      }
+    },
+    "i213060732": {
+      "date": "2026-11-22",
+      "paired_planned": true,
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-11-22T14:51:19.710322",
+        "last_attempt": "2026-11-22T14:51:19.710322",
+        "status": "ok",
+        "reason": "ok",
+        "source_icu_sync_date": "2026-11-22T06:42:32.978+00:00"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-11-22T14:51:19.710322",
+        "last_attempt": "2026-11-22T14:51:19.710322",
+        "status": "pending",
+        "reason": "no_data",
+        "next_retry_at": "2026-11-22T14:56:19.710322"
       }
     }
   }
