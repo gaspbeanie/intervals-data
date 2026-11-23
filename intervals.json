@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T09:41:53.423365",
+  "generated_at": "2026-11-23T21:59:40.056584",
   "schema_version": 1,
   "version": "3.139",
   "script_hash": "643c6e9c8b36",
@@ -3267,6 +3267,34 @@
         }
       ],
       "zone_basis": "hr"
+    },
+    {
+      "activity_id": "i213740709",
+      "date": "2026-11-23",
+      "start_datetime": "2026-11-23T18:14:25",
+      "type": "VirtualRide",
+      "name": "Z2 1 h",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2763,
+          "moving_secs": 2763,
+          "start_secs": 0,
+          "end_secs": 2763,
+          "avg_power": 182,
+          "max_power": 300,
+          "avg_hr": 108,
+          "max_hr": 128,
+          "min_hr": 74,
+          "avg_cadence": 80.70456,
+          "zone": 2,
+          "w_bal_start": 22700,
+          "w_bal_end": 22700,
+          "training_load": 29.740232
+        }
+      ],
+      "zone_basis": "power"
     }
   ],
   "fetch_state": {
@@ -3429,12 +3457,11 @@
         "source_icu_sync_date": "2026-11-20T16:46:14.021+00:00"
       },
       "streams": {
-        "attempts": 10,
+        "attempts": 11,
         "first_seen": "2026-11-20T22:36:59.055217",
-        "last_attempt": "2026-11-23T09:41:53.423365",
-        "status": "pending",
-        "reason": "no_data",
-        "next_retry_at": "2026-11-23T10:11:53.423365"
+        "last_attempt": "2026-11-23T21:59:40.056584",
+        "status": "tombstone",
+        "reason": "retry_expired"
       }
     },
     "i212919298": {
@@ -3448,12 +3475,12 @@
         "source_icu_sync_date": "2026-11-21T18:23:54.026+00:00"
       },
       "streams": {
-        "attempts": 7,
+        "attempts": 8,
         "first_seen": "2026-11-21T19:04:45.178085",
-        "last_attempt": "2026-11-23T09:41:53.423365",
+        "last_attempt": "2026-11-23T21:59:40.056584",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-23T10:11:53.423365"
+        "next_retry_at": "2026-11-23T22:29:40.056584"
       }
     },
     "i213060732": {
@@ -3468,12 +3495,32 @@
         "source_icu_sync_date": "2026-11-22T06:42:32.978+00:00"
       },
       "streams": {
-        "attempts": 4,
+        "attempts": 5,
         "first_seen": "2026-11-22T14:51:19.710322",
-        "last_attempt": "2026-11-23T09:41:53.423365",
+        "last_attempt": "2026-11-23T21:59:40.056584",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-23T09:46:53.423365"
+        "next_retry_at": "2026-11-23T22:04:40.056584"
+      }
+    },
+    "i213740709": {
+      "date": "2026-11-23",
+      "paired_planned": true,
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-11-23T21:59:40.056584",
+        "last_attempt": "2026-11-23T21:59:40.056584",
+        "status": "ok",
+        "reason": "ok",
+        "source_icu_sync_date": "2026-11-23T18:01:05.628+00:00"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-11-23T21:59:40.056584",
+        "last_attempt": "2026-11-23T21:59:40.056584",
+        "status": "pending",
+        "reason": "no_data",
+        "next_retry_at": "2026-11-23T22:04:40.056584"
       }
     }
   }
