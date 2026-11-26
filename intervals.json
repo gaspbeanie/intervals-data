@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T02:46:59.667211",
+  "generated_at": "2026-11-26T12:14:01.445738",
   "schema_version": 1,
   "version": "3.139",
   "script_hash": "643c6e9c8b36",
@@ -3855,6 +3855,85 @@
         }
       ],
       "zone_basis": "power"
+    },
+    {
+      "activity_id": "i214864489",
+      "date": "2026-11-26",
+      "start_datetime": "2026-11-26T10:33:37",
+      "type": "TrailRun",
+      "name": "Bieg 25\u2032",
+      "interval_summary": [
+        "4x 6m25s 116bpm",
+        "1x 17s 117bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "385s@116bpm77rpm",
+          "duration_secs": 366,
+          "moving_secs": 366,
+          "start_secs": 0,
+          "end_secs": 366,
+          "avg_hr": 106,
+          "max_hr": 126,
+          "min_hr": 61,
+          "avg_cadence": 74.92896,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "385s@116bpm77rpm",
+          "duration_secs": 387,
+          "moving_secs": 387,
+          "start_secs": 366,
+          "end_secs": 753,
+          "avg_hr": 121,
+          "max_hr": 130,
+          "min_hr": 108,
+          "avg_cadence": 78.17829,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "385s@116bpm77rpm",
+          "duration_secs": 414,
+          "moving_secs": 414,
+          "start_secs": 753,
+          "end_secs": 1167,
+          "avg_hr": 120,
+          "max_hr": 131,
+          "min_hr": 107,
+          "avg_cadence": 77.4058,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "385s@116bpm77rpm",
+          "duration_secs": 372,
+          "moving_secs": 372,
+          "start_secs": 1167,
+          "end_secs": 1539,
+          "avg_hr": 115,
+          "max_hr": 123,
+          "min_hr": 108,
+          "avg_cadence": 77.91398,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "17s@117bpm79rpm",
+          "duration_secs": 17,
+          "moving_secs": 17,
+          "start_secs": 1539,
+          "end_secs": 1556,
+          "avg_hr": 117,
+          "max_hr": 118,
+          "min_hr": 117,
+          "avg_cadence": 78.76471,
+          "zone": 1
+        }
+      ],
+      "zone_basis": "hr"
     }
   ],
   "fetch_state": {
@@ -4036,12 +4115,12 @@
         "source_icu_sync_date": "2026-11-23T18:01:05.628+00:00"
       },
       "streams": {
-        "attempts": 7,
+        "attempts": 8,
         "first_seen": "2026-11-23T21:59:40.056584",
-        "last_attempt": "2026-11-26T02:46:59.667211",
+        "last_attempt": "2026-11-26T12:14:01.445738",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-26T03:16:59.667211"
+        "next_retry_at": "2026-11-26T12:44:01.445738"
       }
     },
     "i214161343": {
@@ -4056,12 +4135,12 @@
         "source_icu_sync_date": "2026-11-24T17:00:18.928+00:00"
       },
       "streams": {
-        "attempts": 5,
+        "attempts": 6,
         "first_seen": "2026-11-24T17:29:08.996573",
-        "last_attempt": "2026-11-26T02:46:59.667211",
+        "last_attempt": "2026-11-26T12:14:01.445738",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-26T02:51:59.667211"
+        "next_retry_at": "2026-11-26T12:19:01.445738"
       }
     },
     "i214616061": {
@@ -4076,12 +4155,32 @@
         "source_icu_sync_date": "2026-11-25T17:37:58.202+00:00"
       },
       "streams": {
-        "attempts": 2,
+        "attempts": 3,
         "first_seen": "2026-11-25T20:06:53.857465",
-        "last_attempt": "2026-11-26T02:46:59.667211",
+        "last_attempt": "2026-11-26T12:14:01.445738",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-26T02:51:59.667211"
+        "next_retry_at": "2026-11-26T12:19:01.445738"
+      }
+    },
+    "i214864489": {
+      "date": "2026-11-26",
+      "paired_planned": true,
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-11-26T12:14:01.445738",
+        "last_attempt": "2026-11-26T12:14:01.445738",
+        "status": "ok",
+        "reason": "ok",
+        "source_icu_sync_date": "2026-11-26T10:01:32.441+00:00"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-11-26T12:14:01.445738",
+        "last_attempt": "2026-11-26T12:14:01.445738",
+        "status": "pending",
+        "reason": "no_data",
+        "next_retry_at": "2026-11-26T12:19:01.445738"
       }
     }
   }
